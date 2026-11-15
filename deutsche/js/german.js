@@ -78,15 +78,18 @@
       // Search filter
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
-        const inTitle = topic.title.toLowerCase().includes(q);
-        const inCategory = topic.category.toLowerCase().includes(q);
-        const inRule = topic.rule.toLowerCase().includes(q);
-        const inFormula = topic.formula && topic.formula.toLowerCase().includes(q);
-        const inTakeaway = topic.takeaway && topic.takeaway.toLowerCase().includes(q);
+        const inTitle = (topic.title || '').toLowerCase().includes(q);
+        const inCategory = (topic.category || '').toLowerCase().includes(q);
+        const inRule = (topic.rule || topic.explanation || '').toLowerCase().includes(q);
+        const inFormula = (topic.formula || topic.ruleBox || '').toLowerCase().includes(q);
+        const inSyntax = (topic.syntax || '').toLowerCase().includes(q);
+        const inConjugation = (topic.conjugation || '').toLowerCase().includes(q);
+        const inDeclension = (topic.declension || '').toLowerCase().includes(q);
+        const inTakeaway = (topic.takeaway || (topic.keyPoints && topic.keyPoints.join(' ')) || '').toLowerCase().includes(q);
         const inExamples = topic.examples && topic.examples.some(ex => 
-          ex.de.toLowerCase().includes(q) || ex.en.toLowerCase().includes(q) || (ex.breakdown && ex.breakdown.toLowerCase().includes(q))
+          (ex.de || '').toLowerCase().includes(q) || (ex.en || '').toLowerCase().includes(q) || (ex.breakdown && ex.breakdown.toLowerCase().includes(q))
         );
-        return inTitle || inCategory || inRule || inFormula || inTakeaway || inExamples;
+        return inTitle || inCategory || inRule || inFormula || inSyntax || inConjugation || inDeclension || inTakeaway || inExamples;
       }
       return true;
     });
@@ -185,9 +188,88 @@
     attachCardEvents();
   }
 
+  function formatSyntaxTokens(str) {
+    if (!str) return '';
+    const matches = str.match(/\[[^\]]+\]|\+|\/|\|/g);
+    if (!matches) {
+      return `<div class="declension-table-badge">${escapeHtml(str)}</div>`;
+    }
+
+    const html = matches.map(token => {
+      const trimmed = token.trim();
+      if (trimmed === '+') {
+        return '<span class="syntax-plus">+</span>';
+      }
+      if (trimmed === '/' || trimmed === '|') {
+        return `<span class="syntax-plus" style="margin: 0 0.25rem;">${escapeHtml(trimmed)}</span>`;
+      }
+      const inner = trimmed.startsWith('[') && trimmed.endsWith(']') 
+        ? trimmed.slice(1, -1) 
+        : trimmed;
+
+      let cls = 'token-gen';
+      if (/^S\b|Subjekt/i.test(inner)) {
+        cls = 'token-s';
+      } else if (/^V\b|Verb|Prädikat|Pos 2|finit/i.test(inner)) {
+        cls = 'token-v';
+      } else if (/^O\b|Objekt|Akkusativ|Dativ/i.test(inner)) {
+        cls = 'token-o';
+      } else if (/Ende|Infinitiv|Partizip|Präfix/i.test(inner)) {
+        cls = 'token-end';
+      } else if (/Konnektor|Konjunktion|W-Wort|W-Frage/i.test(inner)) {
+        cls = 'token-conn';
+      }
+      return `<span class="syntax-token ${cls}">${escapeHtml(inner)}</span>`;
+    }).join(' ');
+
+    return `<div class="syntax-formula-wrap">${html}</div>`;
+  }
+
+  function formatConjugationGrid(str) {
+    if (!str) return '';
+    if (!str.includes('|')) {
+      return `<div class="declension-table-badge">${escapeHtml(str)}</div>`;
+    }
+
+    const cells = str.split('|').map(item => item.trim()).filter(Boolean);
+    const html = cells.map(cell => {
+      let person = '';
+      let val = cell;
+      if (cell.includes(':')) {
+        const parts = cell.split(':');
+        person = parts[0].trim();
+        val = parts.slice(1).join(':').trim();
+      } else {
+        const words = cell.split(' ');
+        if (words.length > 1) {
+          person = words[0];
+          val = words.slice(1).join(' ');
+        }
+      }
+      return `
+        <div class="conj-cell">
+          <span class="conj-person">${escapeHtml(person)}</span>
+          <span class="conj-val">${escapeHtml(val)}</span>
+        </div>
+      `;
+    }).join('');
+
+    return html;
+  }
+
   function renderCard(topic) {
     const isMastered = masteredTopics.has(topic.id);
     const lvlCls = topic.level.toLowerCase();
+
+    const ruleText = topic.rule || topic.explanation || '';
+    const formulaText = topic.formula || topic.ruleBox || '';
+    const syntaxText = topic.syntax || '';
+    const syntaxNote = topic.syntaxNote || '';
+    const conjugationText = topic.conjugation || '';
+    const conjugationPattern = topic.conjugationPattern || '';
+    const declensionText = topic.declension || '';
+    const declensionNote = topic.declensionNote || '';
+    const takeawayText = topic.takeaway || (topic.keyPoints && topic.keyPoints.join(' • ')) || '';
 
     const examplesHtml = (topic.examples || []).map((ex, idx) => `
       <div class="example-item">
@@ -222,19 +304,59 @@
           </div>
         </div>
         <div class="grammar-card-body">
+          <!-- 1. Grammatik-Regel & Erklärung -->
           <div class="rule-box">
-            ${escapeHtml(topic.rule)}
+            <div class="box-header">📋 Grammatik-Regel & Erklärung</div>
+            <div class="rule-content">${escapeHtml(ruleText)}</div>
           </div>
-          ${topic.formula ? `
-            <div class="formula-box">${escapeHtml(topic.formula)}</div>
+
+          <!-- 2. Satzbau & Wortstellung (Syntax) -->
+          ${syntaxText ? `
+            <div class="syntax-rule-box">
+              <div class="box-header">📐 Satzbau & Wortstellung (Syntax)</div>
+              ${formatSyntaxTokens(syntaxText)}
+              ${syntaxNote ? `<div class="syntax-note">💡 ${escapeHtml(syntaxNote)}</div>` : ''}
+            </div>
           ` : ''}
-          <div class="examples-title">Praktische Anwendungsbeispiele</div>
+
+          <!-- 3. Verb-Konjugation & Formen -->
+          ${conjugationText ? `
+            <div class="conjugation-rule-box">
+              <div class="box-header">🔤 Verb-Konjugation & Formen</div>
+              <div class="conjugation-grid">
+                ${formatConjugationGrid(conjugationText)}
+              </div>
+              ${conjugationPattern ? `<div class="conjugation-pattern">💡 ${escapeHtml(conjugationPattern)}</div>` : ''}
+            </div>
+          ` : ''}
+
+          <!-- 4. Kasus & Deklination -->
+          ${declensionText ? `
+            <div class="declension-rule-box">
+              <div class="box-header">📊 Kasus & Deklination</div>
+              <div class="declension-table-badge">${escapeHtml(declensionText)}</div>
+              ${declensionNote ? `<div class="declension-note">💡 ${escapeHtml(declensionNote)}</div>` : ''}
+            </div>
+          ` : ''}
+
+          <!-- 5. Formel / Leitformel -->
+          ${formulaText && formulaText !== syntaxText ? `
+            <div class="formula-box">
+              <span class="formula-tag">📐 Leitformel:</span>
+              <span class="formula-body">${escapeHtml(formulaText)}</span>
+            </div>
+          ` : ''}
+
+          <!-- 6. Praktische Beispielsätze -->
+          <div class="examples-title">💬 Praktische Beispielsätze & Analyse</div>
           <div class="example-list">
             ${examplesHtml}
           </div>
-          ${topic.takeaway ? `
+
+          <!-- 7. Merke & Lerntipp -->
+          ${takeawayText ? `
             <div class="takeaway-box">
-              <div><strong>Merke:</strong> ${escapeHtml(topic.takeaway)}</div>
+              <div><strong>💡 Merke & Lerntipp:</strong> ${escapeHtml(takeawayText)}</div>
             </div>
           ` : ''}
         </div>

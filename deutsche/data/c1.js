@@ -1,5 +1,4 @@
-// German Grammar C1 Dataset - 105 comprehensive topics
-// Original pedagogical examples (no examples copied from reference PDF)
+// German Grammar Topics - Level C1 - Exactly 105 Topics
 window.GERMAN_DATA_C1 = [
   {
     "id": "c1-top-01",
@@ -216,7 +215,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "vom Architekten handschriftlich signierten"
       }
     ],
-    "takeaway": "Erweitertes Partizip II komprimiert komplexe Passivsätze zu formeller Schriftsprache."
+    "takeaway": "Erweitertes Partizip II komprimiert komplexe Passivsätze zu formeller Schriftsprache.",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "c1-part-08",
@@ -278,7 +278,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Auflösung in aktiven Relativsatz"
       }
     ],
-    "takeaway": "Die Umformung zwischen Partizipialattribut und Relativsatz ist die Königsdisziplin der C1-Grammatik."
+    "takeaway": "Die Umformung zwischen Partizipialattribut und Relativsatz ist die Königsdisziplin der C1-Grammatik.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-part-10",
@@ -340,7 +342,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Bedarf es... so stehe ich"
       }
     ],
-    "takeaway": "Verb-Erst-Konditionalsätze mit anschließendem 'so' sind das Markenzeichen akademischer Stilsicherheit."
+    "takeaway": "Verb-Erst-Konditionalsätze mit anschließendem 'so' sind das Markenzeichen akademischer Stilsicherheit.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-hyp-12",
@@ -371,7 +375,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "hätten unterzeichnen sollen"
       }
     ],
-    "takeaway": "Doppelter Infinitiv: 'hätte machen können / müssen / dürfen' am Satzende."
+    "takeaway": "Doppelter Infinitiv: 'hätte machen können / müssen / dürfen' am Satzende.",
+    "syntax": "[S: Subjekt] + [wäre / hätte (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-hyp-13",
@@ -402,7 +407,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "hätte erteilen dürfen"
       }
     ],
-    "takeaway": "Nebensatz mit Ersatzinfinitiv: Das Hilfsverb 'hätte' springt VOR die beiden Infinitive."
+    "takeaway": "Nebensatz mit Ersatzinfinitiv: Das Hilfsverb 'hätte' springt VOR die beiden Infinitive.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c1-hyp-14",
@@ -433,7 +439,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "als sei... (Konjunktiv I)"
       }
     ],
-    "takeaway": "'als ob' verlangt Verb am Satzende; 'als' allein zieht das konjugierte Verb an Position 2."
+    "takeaway": "'als ob' verlangt Verb am Satzende; 'als' allein zieht das konjugierte Verb an Position 2.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c1-hyp-15",
@@ -464,7 +471,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Nähme... träte ein (elegante C1-Synthetik)"
       }
     ],
-    "takeaway": "Nähme, gäbe, fände, ließe, bliebe: Synthetischer Konjunktiv II verleiht C1-Texten literarischen Glanz."
+    "takeaway": "Nähme, gäbe, fände, ließe, bliebe: Synthetischer Konjunktiv II verleiht C1-Texten literarischen Glanz.",
+    "syntax": "[S: Subjekt] + [würde (konjugiert Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich würde | du würdest | er/sie/es würde | wir würden | ihr würdet | sie/Sie würden (+ Infinitiv)"
   },
   {
     "id": "c1-fvg-16",
@@ -588,7 +597,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "schufen Abhilfe"
       }
     ],
-    "takeaway": "Abhilfe schaffen = Mängel abstellen und Abhilfe leisten."
+    "takeaway": "Abhilfe schaffen = Mängel abstellen und Abhilfe leisten.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-fvg-20",
@@ -805,7 +816,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "entbehren jedes Beweises (Genitiv maskulin)"
       }
     ],
-    "takeaway": "entbehren + Genitiv = einer Eigenschaft oder Grundlage völlig ermangeln."
+    "takeaway": "entbehren + Genitiv = einer Eigenschaft oder Grundlage völlig ermangeln.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-27",
@@ -836,7 +850,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "eines Verbrechens (Genitiv) verdächtigt werden"
       }
     ],
-    "takeaway": "Akkusativ für die Person, Genitiv für das Verbrechen: 'jemanden der Tat bezichtigen'."
+    "takeaway": "Akkusativ für die Person, Genitiv für das Verbrechen: 'jemanden der Tat bezichtigen'.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-28",
@@ -867,7 +884,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "mich des Vorfalls entsinne"
       }
     ],
-    "takeaway": "sich einer Sache entsinnen = gehobenes 'sich erinnern an' mit reinem Genitiv."
+    "takeaway": "sich einer Sache entsinnen = gehobenes 'sich erinnern an' mit reinem Genitiv.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-29",
@@ -898,7 +918,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "bediente sich unlauterer Methoden (Genitiv Plural)"
       }
     ],
-    "takeaway": "sich einer Methode bedienen = eine Methode souverän einsetzen."
+    "takeaway": "sich einer Methode bedienen = eine Methode souverän einsetzen.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-30",
@@ -929,7 +952,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Es bedarf keines Nachdenkens"
       }
     ],
-    "takeaway": "bedürfen + Genitiv = dringend nötig haben / erfordern."
+    "takeaway": "bedürfen + Genitiv = dringend nötig haben / erfordern.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-31",
@@ -960,7 +986,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "insistiert auf"
       }
     ],
-    "takeaway": "insistieren auf + Dativ = bildungssprachlich unerschütterlich fordern."
+    "takeaway": "insistieren auf + Dativ = bildungssprachlich unerschütterlich fordern.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-32",
@@ -991,7 +1020,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "kulminierte im Zusammenbruch"
       }
     ],
-    "takeaway": "kulminieren in + Dativ = gipfeln in / den Höhepunkt finden."
+    "takeaway": "kulminieren in + Dativ = gipfeln in / den Höhepunkt finden.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-33",
@@ -1022,7 +1054,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "zielen auf eine Senkung ab"
       }
     ],
-    "takeaway": "abzielen auf + Akkusativ = die Absicht verfolgen, etwas zu bewirken."
+    "takeaway": "abzielen auf + Akkusativ = die Absicht verfolgen, etwas zu bewirken.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-34",
@@ -1053,7 +1088,10 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "veranlasst zu"
       }
     ],
-    "takeaway": "verleiten zu = verführen (meist Unheil); veranlassen zu = motivieren/bewegen."
+    "takeaway": "verleiten zu = verführen (meist Unheil); veranlassen zu = motivieren/bewegen.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-rek-35",
@@ -1084,7 +1122,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "eingedenk seiner Verantwortung"
       }
     ],
-    "takeaway": "unbeschadet = unberührt bleibend; eingedenk = gedenkend / im Bewusstsein."
+    "takeaway": "unbeschadet = unberührt bleibend; eingedenk = gedenkend / im Bewusstsein.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "c1-prag-36",
@@ -1115,7 +1155,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "denn auch = wie erhofft"
       }
     ],
-    "takeaway": "Kombinierte Partikeln verankern komplexe Aussagen tief im pragmatischen Kontext."
+    "takeaway": "Kombinierte Partikeln verankern komplexe Aussagen tief im pragmatischen Kontext.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "c1-prag-37",
@@ -1146,7 +1187,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "wohl kaum verzichten"
       }
     ],
-    "takeaway": "'wohl kaum' ist die eleganteste deutsche Formel für 'höchst unwahrscheinlich'."
+    "takeaway": "'wohl kaum' ist die eleganteste deutsche Formel für 'höchst unwahrscheinlich'.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "c1-prag-38",
@@ -1177,7 +1219,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "ist nun einmal"
       }
     ],
-    "takeaway": "'nun einmal' verlangt Realitätssinn und beendet müßige Diskussionen."
+    "takeaway": "'nun einmal' verlangt Realitätssinn und beendet müßige Diskussionen.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "c1-prag-39",
@@ -1208,7 +1251,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "schlimmstenfalls"
       }
     ],
-    "takeaway": "Fokuspartikeln steuern die Erwartungshaltung des Lesers mit höchster Präzision."
+    "takeaway": "Fokuspartikeln steuern die Erwartungshaltung des Lesers mit höchster Präzision.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "c1-prag-40",
@@ -1239,7 +1283,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "schiere Neugier"
       }
     ],
-    "takeaway": "schlechterdings, schlichtweg und schier verleihen scharfen Urteilen intellektuelle Tiefe."
+    "takeaway": "schlechterdings, schlichtweg und schier verleihen scharfen Urteilen intellektuelle Tiefe.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "c1-stil-41",
@@ -1611,7 +1656,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "zum gleichen = gleicher Befund aus zwei getrennten Versuchen"
       }
     ],
-    "takeaway": "Niemals 'dasselbe' verwenden, wenn zwei getrennte physische Objekte gemeint sind!"
+    "takeaway": "Niemals 'dasselbe' verwenden, wenn zwei getrennte physische Objekte gemeint sind!",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-sem-53",
@@ -1704,7 +1751,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "ohne dass im Passiv"
       }
     ],
-    "takeaway": "Subjektgleichheit = ohne zu; Subjektwechsel = ohne dass."
+    "takeaway": "Subjektgleichheit = ohne zu; Subjektwechsel = ohne dass.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-text-56",
@@ -1828,7 +1877,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "beileibe nicht überstanden"
       }
     ],
-    "takeaway": "'nicht im Entferntesten' und 'beileibe nicht' formulieren energischen Widerspruch."
+    "takeaway": "'nicht im Entferntesten' und 'beileibe nicht' formulieren energischen Widerspruch.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "c1-text-60",
@@ -1921,7 +1971,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Dativus Ethicus zur nachdrücklichen Warnung"
       }
     ],
-    "takeaway": "Freie Dative nuancieren die persönliche Haltung des Sprechers zur Aussage."
+    "takeaway": "Freie Dative nuancieren die persönliche Haltung des Sprechers zur Aussage.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-det-63",
@@ -1952,7 +2004,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Vorausgesetzt als konditionale Einleitung"
       }
     ],
-    "takeaway": "Partizipialformeln strukturieren Vorträge und Fachaufsätze hochprofessionell."
+    "takeaway": "Partizipialformeln strukturieren Vorträge und Fachaufsätze hochprofessionell.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-det-64",
@@ -2014,7 +2068,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Prägnante Ellipse"
       }
     ],
-    "takeaway": "Gekonnte Ellipsen straffen den Satz und machen Sprache rhythmisch und dynamisch."
+    "takeaway": "Gekonnte Ellipsen straffen den Satz und machen Sprache rhythmisch und dynamisch.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-det-66",
@@ -2045,7 +2101,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "zumal... steht"
       }
     ],
-    "takeaway": "'zumal' liefert das schlagende Zusatzargument in Diskussionen."
+    "takeaway": "'zumal' liefert das schlagende Zusatzargument in Diskussionen.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-det-67",
@@ -2076,7 +2134,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "sondern vielmehr"
       }
     ],
-    "takeaway": "'sondern vielmehr' korrigiert und vertieft eine oberflächliche Einschätzung."
+    "takeaway": "'sondern vielmehr' korrigiert und vertieft eine oberflächliche Einschätzung.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "c1-det-68",
@@ -2169,7 +2228,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Gegen diese Entscheidung im Vorfeld"
       }
     ],
-    "takeaway": "Präpositionalobjekt im Vorfeld eliminiert hölzerne 'Es'-Konstruktionen im Passiv."
+    "takeaway": "Präpositionalobjekt im Vorfeld eliminiert hölzerne 'Es'-Konstruktionen im Passiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-univ-71",
@@ -2355,7 +2416,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Invertierter Spaltsatz"
       }
     ],
-    "takeaway": "Spaltsätze verleihen Reden und Festschriften dramatischen Nachdruck."
+    "takeaway": "Spaltsätze verleihen Reden und Festschriften dramatischen Nachdruck.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c1-syn-77",
@@ -2448,7 +2510,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "noch fanden wir"
       }
     ],
-    "takeaway": "'noch' als Satzkonnektor erzwingt Inversion: 'noch + Verb + Subjekt'."
+    "takeaway": "'noch' als Satzkonnektor erzwingt Inversion: 'noch + Verb + Subjekt'.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c1-syn-80",
@@ -2510,7 +2573,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "behoben werden kann"
       }
     ],
-    "takeaway": "Im Passiv-Modal-Nebensatz steht das konjugierte Modalverb ganz am Schluss."
+    "takeaway": "Im Passiv-Modal-Nebensatz steht das konjugierte Modalverb ganz am Schluss.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c1-syn-82",
@@ -2541,7 +2605,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "alsbald"
       }
     ],
-    "takeaway": "alsbald, dereinst und vordem verleihen Texten epischen Atem."
+    "takeaway": "alsbald, dereinst und vordem verleihen Texten epischen Atem.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-syn-83",
@@ -2603,7 +2669,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "laut aussprechen = wörtliche Bedeutung des Adjektivs"
       }
     ],
-    "takeaway": "Übertragene idiomatische Einheit = zusammen (krankschreiben, festsitzen, totschweigen)."
+    "takeaway": "Übertragene idiomatische Einheit = zusammen (krankschreiben, festsitzen, totschweigen).",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c1-syn-85",
@@ -2665,7 +2732,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Hätten... gehört!"
       }
     ],
-    "takeaway": "Verb auf Position 1 + 'doch/bloß/nur' = vollendeter rhetorischer Wunschsatz."
+    "takeaway": "Verb auf Position 1 + 'doch/bloß/nur' = vollendeter rhetorischer Wunschsatz.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-87",
@@ -2696,7 +2765,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "stehen als finites Verb auf Pos 2 (nach Vorfeld)"
       }
     ],
-    "takeaway": "Niemals nach dem Nebensatzkomma mit dem Subjekt beginnen: Immer Verb sofort auf Position 2!"
+    "takeaway": "Niemals nach dem Nebensatzkomma mit dem Subjekt beginnen: Immer Verb sofort auf Position 2!",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-88",
@@ -2727,7 +2798,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "dünken (gehoben für scheinen) + verstaubt"
       }
     ],
-    "takeaway": "Prädikative Adjektive nach scheinen/wirken/anmuten tragen niemals Kasusendungen."
+    "takeaway": "Prädikative Adjektive nach scheinen/wirken/anmuten tragen niemals Kasusendungen.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-89",
@@ -2758,7 +2831,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "es sei denn, dass + Nebensatz"
       }
     ],
-    "takeaway": "'es sei denn' ohne 'dass' verlangt normale Hauptsatz-Wortstellung!"
+    "takeaway": "'es sei denn' ohne 'dass' verlangt normale Hauptsatz-Wortstellung!",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-syn-90",
@@ -2789,7 +2864,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "'In keiner Weise' ist standardsprachlich korrekt"
       }
     ],
-    "takeaway": "Vorangestellte Negationsphrasen fordern strikte Inversion und erzeugen Entschiedenheit."
+    "takeaway": "Vorangestellte Negationsphrasen fordern strikte Inversion und erzeugen Entschiedenheit.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-91",
@@ -2820,7 +2897,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "sich (Dativ) + die Passwörter (Akkusativ)"
       }
     ],
-    "takeaway": "Dativ-Reflexiv + Akkusativ: 'Ich vergegenwärtige mir (Dat) den Plan (Akk)'."
+    "takeaway": "Dativ-Reflexiv + Akkusativ: 'Ich vergegenwärtige mir (Dat) den Plan (Akk)'.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-syn-92",
@@ -2851,7 +2930,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "desto eher können wir"
       }
     ],
-    "takeaway": "Niemals das Subjekt vor das Verb im desto-Satz stellen: 'desto besser IST das'!"
+    "takeaway": "Niemals das Subjekt vor das Verb im desto-Satz stellen: 'desto besser IST das'!",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-93",
@@ -2882,7 +2963,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "mündeten in + Akkusativ"
       }
     ],
-    "takeaway": "hinauslaufen auf / münden in verbildlichen gedankliche Konsequenzen dynamisch."
+    "takeaway": "hinauslaufen auf / münden in verbildlichen gedankliche Konsequenzen dynamisch.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-94",
@@ -2913,7 +2996,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "des Streits überdrüssig"
       }
     ],
-    "takeaway": "Genitivadjektive: habhaft werden, gewahr werden, überdrüssig sein zeugen von souveränem C1-Wortschatz."
+    "takeaway": "Genitivadjektive: habhaft werden, gewahr werden, überdrüssig sein zeugen von souveränem C1-Wortschatz.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-95",
@@ -2944,7 +3029,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "pflegte zu verfassen"
       }
     ],
-    "takeaway": "'pflegen zu tun' veredelt einfache Aussagen über Gewohnheiten stilistisch."
+    "takeaway": "'pflegen zu tun' veredelt einfache Aussagen über Gewohnheiten stilistisch.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-96",
@@ -2975,7 +3062,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Inversion"
       }
     ],
-    "takeaway": "Vorangestelltes 'Nicht nur' am Satzanfang erfordert zwingend Verb-Zweit-Inversion."
+    "takeaway": "Vorangestelltes 'Nicht nur' am Satzanfang erfordert zwingend Verb-Zweit-Inversion.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-97",
@@ -3006,7 +3095,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Gleichwohl gelang"
       }
     ],
-    "takeaway": "'gleichwohl' ist das vornehmste konzessive Konjunktionaladverb im gehobenen Deutsch."
+    "takeaway": "'gleichwohl' ist das vornehmste konzessive Konjunktionaladverb im gehobenen Deutsch.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-98",
@@ -3037,7 +3128,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "nach Durchlesen des Vertrags"
       }
     ],
-    "takeaway": "Präposition + substantivierter Infinitiv + Genitivattribut komprimiert Temporalsätze maximal."
+    "takeaway": "Präposition + substantivierter Infinitiv + Genitivattribut komprimiert Temporalsätze maximal.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-99",
@@ -3068,7 +3161,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "In diesem Absatz liegt der Sprengsatz"
       }
     ],
-    "takeaway": "Lokal-Inversion setzt das Subjekt als Pointe ans Satzende."
+    "takeaway": "Lokal-Inversion setzt das Subjekt als Pointe ans Satzende.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-100",
@@ -3099,7 +3194,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "mitnichten... sondern"
       }
     ],
-    "takeaway": "'mitnichten' zeigt absolute Stilsouveränität und rhetorische Schlagkraft."
+    "takeaway": "'mitnichten' zeigt absolute Stilsouveränität und rhetorische Schlagkraft.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-101",
@@ -3130,7 +3227,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Satzreihung im Asyndeton"
       }
     ],
-    "takeaway": "Asyndeton streicht Bindewörter und erzeugt dramatische Beschleunigung."
+    "takeaway": "Asyndeton streicht Bindewörter und erzeugt dramatische Beschleunigung.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-102",
@@ -3161,7 +3260,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Polysyndetische Negationsreihung"
       }
     ],
-    "takeaway": "Polysyndeton verlangsamt den Takt und verleiht Argumenten gravitätisches Gewicht."
+    "takeaway": "Polysyndeton verlangsamt den Takt und verleiht Argumenten gravitätisches Gewicht.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-103",
@@ -3192,7 +3293,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "der Veruntreuung (Genitivobjekt)"
       }
     ],
-    "takeaway": "In C1-Aufsätzen stets das direkte Genitivobjekt ohne 'wegen' bevorzugen."
+    "takeaway": "In C1-Aufsätzen stets das direkte Genitivobjekt ohne 'wegen' bevorzugen.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c1-syn-104",
@@ -3223,7 +3326,9 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Seinem Ruf (Dativ) + wurde geschadet"
       }
     ],
-    "takeaway": "Niemals 'Er wurde geholfen' sagen – im Passiv bleibt Dativ immer Dativ: 'Ihm wurde geholfen'!"
+    "takeaway": "Niemals 'Er wurde geholfen' sagen – im Passiv bleibt Dativ immer Dativ: 'Ihm wurde geholfen'!",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "c1-syn-105",
@@ -3254,6 +3359,8 @@ window.GERMAN_DATA_C1 = [
         "breakdown": "Rhetorische Negation mitnichten + Inversion + Antithese mit vielmehr"
       }
     ],
-    "takeaway": "Beherrschung aller C1-Elemente ermöglicht stilsicheres, differenziertes und souveränes Deutsch auf muttersprachlichem Niveau."
+    "takeaway": "Beherrschung aller C1-Elemente ermöglicht stilsicheres, differenziertes und souveränes Deutsch auf muttersprachlichem Niveau.",
+    "syntaxNote": "Satzklammer im Perfekt: Das finite Hilfsverb belegt Position 2, das Partizip II schließt den Satz ab.",
+    "syntax": "[S: Subjekt] + [Hilfsverb haben / sein (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   }
 ];

@@ -1,5 +1,4 @@
-// German Grammar B2 Dataset - 105 comprehensive topics
-// Original pedagogical examples (no examples copied from reference PDF)
+// German Grammar Topics - Level B2 - Exactly 105 Topics
 window.GERMAN_DATA_B2 = [
   {
     "id": "b2-pas-01",
@@ -30,7 +29,10 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "ist konfiguriert"
       }
     ],
-    "takeaway": "Vorgangspassiv (werden) = Film / Handlung; Zustandspassiv (sein) = Foto / fertiges Resultat."
+    "takeaway": "Vorgangspassiv (werden) = Film / Handlung; Zustandspassiv (sein) = Foto / fertiges Resultat.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt] + [sein (konjugiert Pos 2)] + [Partizip II (Zustand am Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-pas-02",
@@ -61,7 +63,10 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "waren abgelegt"
       }
     ],
-    "takeaway": "war + Partizip II beschreibt einen Zustand, der in der Vergangenheit vorlag."
+    "takeaway": "war + Partizip II beschreibt einen Zustand, der in der Vergangenheit vorlag.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [wurde / wurden (Pos 2)] + [von + Dativ] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-pas-03",
@@ -92,7 +97,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "man feiert = wird gefeiert"
       }
     ],
-    "takeaway": "'man' ersetzt Passivstrukturen im Alltag und gesprochenen Deutsch elegant."
+    "takeaway": "'man' ersetzt Passivstrukturen im Alltag und gesprochenen Deutsch elegant.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b2-pas-04",
@@ -123,7 +130,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "sind zu vernichten = müssen vernichtet werden"
       }
     ],
-    "takeaway": "'sein + zu + Infinitiv' = muss gemacht werden (Notwendigkeit) oder kann gemacht werden (Möglichkeit)."
+    "takeaway": "'sein + zu + Infinitiv' = muss gemacht werden (Notwendigkeit) oder kann gemacht werden (Möglichkeit).",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b2-pas-05",
@@ -154,7 +163,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "lässt sich anpassen = kann angepasst werden"
       }
     ],
-    "takeaway": "'lässt sich machen' = 'kann gemacht werden' (drückt rein passive Machbarkeit aus)."
+    "takeaway": "'lässt sich machen' = 'kann gemacht werden' (drückt rein passive Machbarkeit aus).",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b2-pas-06",
@@ -185,7 +196,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "trinkbar = kann getrunken werden"
       }
     ],
-    "takeaway": "-bar / -lich / -abel verkürzen passive Passivsätze zu prägnanten Adjektiven."
+    "takeaway": "-bar / -lich / -abel verkürzen passive Passivsätze zu prägnanten Adjektiven.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b2-pas-07",
@@ -216,7 +229,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "gilt es... zu machen"
       }
     ],
-    "takeaway": "'Es gilt zu tun' ist eine stilistisch elegante Notwendigkeitsformel für Berichte und Reden."
+    "takeaway": "'Es gilt zu tun' ist eine stilistisch elegante Notwendigkeitsformel für Berichte und Reden.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b2-pas-08",
@@ -247,7 +262,10 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "gehört gehängt"
       }
     ],
-    "takeaway": "'gehört gemacht' = nachdrückliche alltägliche Aufforderung: Das gehört bestraft!"
+    "takeaway": "'gehört gemacht' = nachdrückliche alltägliche Aufforderung: Das gehört bestraft!",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-pas-09",
@@ -278,7 +296,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "wäscht sich gut = kann gut gewaschen werden"
       }
     ],
-    "takeaway": "Verben wie sich lesen, sich verkaufen, sich öffnen nehmen passivische Eigenschaften an."
+    "takeaway": "Verben wie sich lesen, sich verkaufen, sich öffnen nehmen passivische Eigenschaften an.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b2-pas-10",
@@ -309,7 +329,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "stellte zur Rede = forderte Erklärung (aktiv)"
       }
     ],
-    "takeaway": "stehen zur Verfügung (Passiv) vs. stellen zur Verfügung (Aktiv)."
+    "takeaway": "stehen zur Verfügung (Passiv) vs. stellen zur Verfügung (Aktiv).",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b2-k1-11",
@@ -340,7 +362,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "falle = Konjunktiv I von fallen"
       }
     ],
-    "takeaway": "Konjunktiv I signalisiert Neutralität: 'Ich berichte nur, was jemand gesagt hat, ohne Garantie'."
+    "takeaway": "Konjunktiv I signalisiert Neutralität: 'Ich berichte nur, was jemand gesagt hat, ohne Garantie'.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-k1-12",
@@ -371,7 +394,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "seien = Konjunktiv I von sein"
       }
     ],
-    "takeaway": "Er sei, sie seien – die Paradeformen des Konjunktiv I."
+    "takeaway": "Er sei, sie seien – die Paradeformen des Konjunktiv I.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-k1-13",
@@ -402,7 +426,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "zeige = Konjunktiv I von zeigen"
       }
     ],
-    "takeaway": "In der 3. Person Singular ist der Konjunktiv I immer glasklar unterscheidbar: er habe, er komme, er lebe."
+    "takeaway": "In der 3. Person Singular ist der Konjunktiv I immer glasklar unterscheidbar: er habe, er komme, er lebe.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-k1-14",
@@ -433,7 +458,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Ersatzform Konjunktiv II"
       }
     ],
-    "takeaway": "Goldene Regel: Ist Konjunktiv I gleich Indikativ, muss Konjunktiv II einspringen."
+    "takeaway": "Goldene Regel: Ist Konjunktiv I gleich Indikativ, muss Konjunktiv II einspringen.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-k1-15",
@@ -464,7 +490,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "habe... gesehen"
       }
     ],
-    "takeaway": "Präteritum, Perfekt und Plusquamperfekt schrumpfen in der indirekten Rede zu: habe/sei + Partizip II."
+    "takeaway": "Präteritum, Perfekt und Plusquamperfekt schrumpfen in der indirekten Rede zu: habe/sei + Partizip II.",
+    "syntax": "[S: Subjekt] + [wäre / hätte (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-k1-16",
@@ -495,7 +523,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "ob + geprüft hätten (K II als Ersatzform)"
       }
     ],
-    "takeaway": "Entscheidungsfrage = ob; Ergänzungsfrage = W-Wort; Verb rückt ans Satzende."
+    "takeaway": "Entscheidungsfrage = ob; Ergänzungsfrage = W-Wort; Verb rückt ans Satzende.",
+    "syntaxNote": "Verberststellung (V1): Das Verb rückt ganz nach vorn an Position 1.",
+    "syntax": "[V: Finites Verb (Pos 1)] + [S: Subjekt (Pos 2)] + [O: Objekt / Angaben]?"
   },
   {
     "id": "b2-k1-17",
@@ -526,7 +556,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "solle anhalten"
       }
     ],
-    "takeaway": "Imperativ in indirekter Rede: immer 'sollen' (Befehl) oder 'mögen' (höfliche Bitte)."
+    "takeaway": "Imperativ in indirekter Rede: immer 'sollen' (Befehl) oder 'mögen' (höfliche Bitte).",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]",
+    "conjugation": "ich soll | du sollst | er/sie/es soll | wir sollen | ihr sollt | sie/Sie sollen"
   },
   {
     "id": "b2-k1-18",
@@ -557,7 +589,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "gestern -> am Vortag"
       }
     ],
-    "takeaway": "Nicht nur das Verb ändert sich: Pronomen und Zeitwörter müssen mitwandern."
+    "takeaway": "Nicht nur das Verb ändert sich: Pronomen und Zeitwörter müssen mitwandern.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-k1-19",
@@ -588,7 +621,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "mit dass, Verb zögen am Satzende"
       }
     ],
-    "takeaway": "Ohne 'dass' steht das Verb im Konjunktiv auf Position 2 – das ist im Journalismus der Regelfall."
+    "takeaway": "Ohne 'dass' steht das Verb im Konjunktiv auf Position 2 – das ist im Journalismus der Regelfall.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-k1-20",
@@ -619,7 +654,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Dem Bericht zufolge (nachgestelltes zufolge + Dativ)"
       }
     ],
-    "takeaway": "Laut, nach Angaben und zufolge kennzeichnen Quellen präzise."
+    "takeaway": "Laut, nach Angaben und zufolge kennzeichnen Quellen präzise.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b2-fvg-21",
@@ -650,7 +686,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "in Kraft treten = wirksam/gültig werden"
       }
     ],
-    "takeaway": "FVG machen Texte präziser, sachlicher und fachsprachlicher: Nomen trägt die Bedeutung."
+    "takeaway": "FVG machen Texte präziser, sachlicher und fachsprachlicher: Nomen trägt die Bedeutung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-fvg-22",
@@ -960,7 +997,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "mag = Einräumung (Zugegeben, dass...)"
       }
     ],
-    "takeaway": "Subjektive Modalverben drücken den Grad der Gewissheit des Sprechers aus."
+    "takeaway": "Subjektive Modalverben drücken den Grad der Gewissheit des Sprechers aus.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "b2-mod-32",
@@ -991,7 +1029,10 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "muss gelesen haben"
       }
     ],
-    "takeaway": "Subjektives müssen = logische Schlussfolgerung ('Es kann gar nicht anders sein')."
+    "takeaway": "Subjektives müssen = logische Schlussfolgerung ('Es kann gar nicht anders sein').",
+    "conjugationPattern": "1. & 3. Person Singular: ich muss, er muss (ohne Umlaut und ohne Endung)",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich muss | du musst | er/sie/es muss | wir müssen | ihr müsst | sie/Sie müssen"
   },
   {
     "id": "b2-mod-33",
@@ -1022,7 +1063,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "dürfte sich beruhigen"
       }
     ],
-    "takeaway": "'dürfte' steht immer im Konjunktiv II und bedeutet 'sehr wahrscheinlich'."
+    "takeaway": "'dürfte' steht immer im Konjunktiv II und bedeutet 'sehr wahrscheinlich'.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "b2-mod-34",
@@ -1053,7 +1095,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "könnte haben"
       }
     ],
-    "takeaway": "könnte = es ist möglich, aber keineswegs sicher (vielleicht)."
+    "takeaway": "könnte = es ist möglich, aber keineswegs sicher (vielleicht).",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "b2-mod-35",
@@ -1084,7 +1127,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "will erhalten haben"
       }
     ],
-    "takeaway": "Subjektives wollen = Selbstbehauptung mit Skepsis ('Er behauptet, er habe...')."
+    "takeaway": "Subjektives wollen = Selbstbehauptung mit Skepsis ('Er behauptet, er habe...').",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich will | du willst | er/sie/es will | wir wollen | ihr wollt | sie/Sie wollen"
   },
   {
     "id": "b2-mod-36",
@@ -1115,7 +1160,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "soll spuken"
       }
     ],
-    "takeaway": "Subjektives sollen = Gerücht / Hörensagen ('Man sagt, dass... / He is said to...')."
+    "takeaway": "Subjektives sollen = Gerücht / Hörensagen ('Man sagt, dass... / He is said to...').",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich soll | du sollst | er/sie/es soll | wir sollen | ihr sollt | sie/Sie sollen"
   },
   {
     "id": "b2-mod-37",
@@ -1146,7 +1193,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "mag Recht haben"
       }
     ],
-    "takeaway": "Subjektives mögen = Zugeständnis mit anschließendem Gegenargument ('may be, but')."
+    "takeaway": "Subjektives mögen = Zugeständnis mit anschließendem Gegenargument ('may be, but').",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich mag | du magst | er/sie/es mag | wir mögen | ihr mögt | sie/Sie mögen"
   },
   {
     "id": "b2-mod-38",
@@ -1177,7 +1226,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "will abgeschickt haben"
       }
     ],
-    "takeaway": "Vermutung über Vergangenheit: Modalverb bleibt vorne im Präsens, hinten steht 'Partizip II + haben/sein'."
+    "takeaway": "Vermutung über Vergangenheit: Modalverb bleibt vorne im Präsens, hinten steht 'Partizip II + haben/sein'.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]"
   },
   {
     "id": "b2-nom-39",
@@ -1208,7 +1258,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Präposition bei + Nomen Ankunft"
       }
     ],
-    "takeaway": "Nominalstil ersetzt Nebensatz durch [Präposition + Nomen im Genitiv/Dativ]."
+    "takeaway": "Nominalstil ersetzt Nebensatz durch [Präposition + Nomen im Genitiv/Dativ].",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-nom-40",
@@ -1239,7 +1290,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "aufgrund + Genitiv"
       }
     ],
-    "takeaway": "weil + Verb -> wegen / aufgrund + Nomen im Genitiv."
+    "takeaway": "weil + Verb -> wegen / aufgrund + Nomen im Genitiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-41",
@@ -1270,7 +1323,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "bei der Werksbesichtigung"
       }
     ],
-    "takeaway": "wenn/als + Verb -> bei + Nomen im Dativ: beim Essen, bei der Ankunft."
+    "takeaway": "wenn/als + Verb -> bei + Nomen im Dativ: beim Essen, bei der Ankunft.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-42",
@@ -1301,7 +1356,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "nach Beendigung"
       }
     ],
-    "takeaway": "nachdem + Verb -> nach + Nomen im Dativ."
+    "takeaway": "nachdem + Verb -> nach + Nomen im Dativ.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-43",
@@ -1332,7 +1389,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "vor Beginn"
       }
     ],
-    "takeaway": "bevor + Verb -> vor + Nomen im Dativ."
+    "takeaway": "bevor + Verb -> vor + Nomen im Dativ.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-44",
@@ -1363,7 +1422,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "bei + Dativ: bei Fragen"
       }
     ],
-    "takeaway": "wenn/falls -> bei + Dativ / im Falle + Genitiv."
+    "takeaway": "wenn/falls -> bei + Dativ / im Falle + Genitiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-45",
@@ -1394,7 +1455,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "ungeachtet + Genitiv"
       }
     ],
-    "takeaway": "obwohl + Verb -> trotz / ungeachtet + Nomen im Genitiv."
+    "takeaway": "obwohl + Verb -> trotz / ungeachtet + Nomen im Genitiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-46",
@@ -1456,7 +1519,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "mittels + Genitiv"
       }
     ],
-    "takeaway": "indem + Verb -> durch + Akkusativ / mittels + Genitiv."
+    "takeaway": "indem + Verb -> durch + Akkusativ / mittels + Genitiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-nom-48",
@@ -1549,7 +1614,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "die Tickets, die im Voraus bezahlt wurden"
       }
     ],
-    "takeaway": "Erweitertes Partizip II komprimiert Passivsätze zu eleganten Attributen."
+    "takeaway": "Erweitertes Partizip II komprimiert Passivsätze zu eleganten Attributen.",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-part-51",
@@ -1673,7 +1739,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Differenzierung"
       }
     ],
-    "takeaway": "'Nicht dass... sondern' räumt falsche Verdächtigungen elegant aus dem Weg."
+    "takeaway": "'Nicht dass... sondern' räumt falsche Verdächtigungen elegant aus dem Weg.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-kon-55",
@@ -1704,7 +1772,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "wennschon = konzessiv"
       }
     ],
-    "takeaway": "wenngleich / obzwar bereichern gehobene schriftliche Texte als elegante Obwohl-Varianten."
+    "takeaway": "wenngleich / obzwar bereichern gehobene schriftliche Texte als elegante Obwohl-Varianten.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-kon-56",
@@ -1766,7 +1836,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "umso mehr als"
       }
     ],
-    "takeaway": "umso mehr als = 'erst recht weil'; je nachdem = 'abhängig davon'."
+    "takeaway": "umso mehr als = 'erst recht weil'; je nachdem = 'abhängig davon'.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-kon-58",
@@ -1797,7 +1869,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "hinsichtlich + Genitiv"
       }
     ],
-    "takeaway": "Formelle Briefe: hinsichtlich, bezüglich und anlässlich verlangen Genitiv."
+    "takeaway": "Formelle Briefe: hinsichtlich, bezüglich und anlässlich verlangen Genitiv.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-kon-59",
@@ -1828,7 +1902,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "mangels finanzieller Mittel"
       }
     ],
-    "takeaway": "mangels = aus Mangel an; kraft = durch Vollmacht von; zugunsten = zum Wohl von."
+    "takeaway": "mangels = aus Mangel an; kraft = durch Vollmacht von; zugunsten = zum Wohl von.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-kon-60",
@@ -1859,7 +1935,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "anhand einer Grafik"
       }
     ],
-    "takeaway": "anhand, mithilfe, seitens verleihen wissenschaftlichen Texten Präzision."
+    "takeaway": "anhand, mithilfe, seitens verleihen wissenschaftlichen Texten Präzision.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-rek-61",
@@ -1890,7 +1968,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "appellieren an"
       }
     ],
-    "takeaway": "plädieren FÜR eine Sache; appellieren AN eine Person oder Eigenschaft."
+    "takeaway": "plädieren FÜR eine Sache; appellieren AN eine Person oder Eigenschaft.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-62",
@@ -1921,7 +2000,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "besteht darauf (Pronominaladverb)"
       }
     ],
-    "takeaway": "beharren / bestehen + AUF + Dativ = unnachgiebig fordern/festhalten."
+    "takeaway": "beharren / bestehen + AUF + Dativ = unnachgiebig fordern/festhalten.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-63",
@@ -1952,7 +2032,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "führen zu"
       }
     ],
-    "takeaway": "Wirkung resultiert AUS der Ursache; die Ursache führt ZUR Wirkung."
+    "takeaway": "Wirkung resultiert AUS der Ursache; die Ursache führt ZUR Wirkung.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-64",
@@ -1983,7 +2064,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "basieren auf"
       }
     ],
-    "takeaway": "anknüpfen AN + Akk (Verbindung aufnehmen); basieren AUF + Dat (Grundlage)."
+    "takeaway": "anknüpfen AN + Akk (Verbindung aufnehmen); basieren AUF + Dat (Grundlage).",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-65",
@@ -2014,7 +2096,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "sich abfinden mit"
       }
     ],
-    "takeaway": "sich abfinden mit = sich fügen, etwas Zähneknirschend annehmen."
+    "takeaway": "sich abfinden mit = sich fügen, etwas Zähneknirschend annehmen.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-66",
@@ -2045,7 +2128,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "sich distanzieren von"
       }
     ],
-    "takeaway": "sich distanzieren von = klare Grenze zu zweifelhaften Inhalten ziehen."
+    "takeaway": "sich distanzieren von = klare Grenze zu zweifelhaften Inhalten ziehen.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-67",
@@ -2076,7 +2160,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "anklagen + Akkusativ (den Manager) + Genitiv (der Steuerhinterziehung)"
       }
     ],
-    "takeaway": "Echte Genitivverben: gedenken, bedürfen, anklagen, verdächtigen, beschuldigen."
+    "takeaway": "Echte Genitivverben: gedenken, bedürfen, anklagen, verdächtigen, beschuldigen.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-68",
@@ -2107,7 +2192,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "das Schiff + die Königin"
       }
     ],
-    "takeaway": "Verben wie nennen/kosten verlangen gleich zwei Akkusative."
+    "takeaway": "Verben wie nennen/kosten verlangen gleich zwei Akkusative.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-rek-69",
@@ -2262,7 +2348,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Temporale Einschränkung im Vorfeld"
       }
     ],
-    "takeaway": "Niemals jeden Satz mit dem Subjekt beginnen – Inversion schafft Stil und Fluss."
+    "takeaway": "Niemals jeden Satz mit dem Subjekt beginnen – Inversion schafft Stil und Fluss.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "b2-top-74",
@@ -2293,7 +2381,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "ergo als lateinisches Bildungswort"
       }
     ],
-    "takeaway": "hingegen, demnach, folglich verbinden Gedanken logisch auf akademischem Niveau."
+    "takeaway": "hingegen, demnach, folglich verbinden Gedanken logisch auf akademischem Niveau.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-top-75",
@@ -2355,7 +2444,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "die gleichen = ein zweites Exemplar"
       }
     ],
-    "takeaway": "Zwei Menschen können das gleiche Kleid tragen, aber niemals dasselbe zur selben Zeit!"
+    "takeaway": "Zwei Menschen können das gleiche Kleid tragen, aber niemals dasselbe zur selben Zeit!",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-top-77",
@@ -2448,7 +2539,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "keineswegs sicher"
       }
     ],
-    "takeaway": "keineswegs und durchaus nicht verleihen Argumenten Nachdruck."
+    "takeaway": "keineswegs und durchaus nicht verleihen Argumenten Nachdruck.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "b2-top-80",
@@ -2634,7 +2726,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "aus Höflichkeit (sozialer Beweggrund)"
       }
     ],
-    "takeaway": "'vor' = unkontrollierbare Reaktion (vor Wut weinen); 'aus' = Beweggrund (aus Mitleid helfen)."
+    "takeaway": "'vor' = unkontrollierbare Reaktion (vor Wut weinen); 'aus' = Beweggrund (aus Mitleid helfen).",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-fein-86",
@@ -2696,7 +2789,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "übersetzen = Sprache übertragen"
       }
     ],
-    "takeaway": "Betonung bestimmt die Bedeutung: úmfahren (Crash!) vs. umfáhren (Ausweichen!)."
+    "takeaway": "Betonung bestimmt die Bedeutung: úmfahren (Crash!) vs. umfáhren (Ausweichen!).",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b2-fein-88",
@@ -2789,7 +2883,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "innerhalb weniger Tage (Genitiv Plural)"
       }
     ],
-    "takeaway": "In offiziellen Prüfungen und Briefen: Wegen/trotz/während IMMER mit Genitiv konstruieren."
+    "takeaway": "In offiziellen Prüfungen und Briefen: Wegen/trotz/während IMMER mit Genitiv konstruieren.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-fein-91",
@@ -2820,7 +2916,8 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Von allen gefeiert"
       }
     ],
-    "takeaway": "Partizip II an Satzanfang erzeugt Dynamik und literarische Dichte."
+    "takeaway": "Partizip II an Satzanfang erzeugt Dynamik und literarische Dichte.",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b2-fein-92",
@@ -3037,7 +3134,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Beitrag leisten statt Beitrag machen"
       }
     ],
-    "takeaway": "Weg mit 'machen': durchführen, leisten, anfertigen, erzielen."
+    "takeaway": "Weg mit 'machen': durchführen, leisten, anfertigen, erzielen.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-fein-99",
@@ -3192,7 +3291,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "Bedarf es... so muss..."
       }
     ],
-    "takeaway": "Verb-Erst-Konditionalsätze ('Sollten Sie...', 'Hätten wir...') signalisieren souveräne Stilsicherheit."
+    "takeaway": "Verb-Erst-Konditionalsätze ('Sollten Sie...', 'Hätten wir...') signalisieren souveräne Stilsicherheit.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-fein-104",
@@ -3223,7 +3324,9 @@ window.GERMAN_DATA_B2 = [
         "breakdown": "zeitliche Grenze"
       }
     ],
-    "takeaway": "Prüfe stets den Kontext: Dient 'während' der Zeitangabe oder einem Kontrast?"
+    "takeaway": "Prüfe stets den Kontext: Dient 'während' der Zeitangabe oder einem Kontrast?",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b2-fein-105",

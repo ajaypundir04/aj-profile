@@ -1,5 +1,4 @@
-// German Grammar C2 Dataset - 105 comprehensive topics
-// Original pedagogical examples (no examples copied from reference PDF)
+// German Grammar Topics - Level C2 - Exactly 105 Topics
 window.GERMAN_DATA_C2 = [
   {
     "id": "c2-hist-01",
@@ -61,7 +60,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "geschleift = zerstört / dem Erdboden gleichgemacht"
       }
     ],
-    "takeaway": "Starke Partizipien veredeln oft übertragene Bedeutungen: geschliffener Witz, gewobene Träume."
+    "takeaway": "Starke Partizipien veredeln oft übertragene Bedeutungen: geschliffener Witz, gewobene Träume.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-hist-03",
@@ -619,7 +619,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "ungeachtet dessen als Konnektroadverb"
       }
     ],
-    "takeaway": "wiewohl und wenngleich bereichern anspruchsvolle Essays durch intellektuelle Noblesse."
+    "takeaway": "wiewohl und wenngleich bereichern anspruchsvolle Essays durch intellektuelle Noblesse.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-amt-21",
@@ -712,7 +714,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Einrede der Verjährung"
       }
     ],
-    "takeaway": "C2-Sprecher verstehen und formulieren komplexe juristische Vertragsklauseln fehlerfrei."
+    "takeaway": "C2-Sprecher verstehen und formulieren komplexe juristische Vertragsklauseln fehlerfrei.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-amt-24",
@@ -743,7 +746,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "obenangeführt"
       }
     ],
-    "takeaway": "obwaltende Umstände und vorbesagt spiegeln das formelle Kanzleiregister wider."
+    "takeaway": "obwaltende Umstände und vorbesagt spiegeln das formelle Kanzleiregister wider.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-amt-25",
@@ -774,7 +779,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Rechtsmittel einlegen"
       }
     ],
-    "takeaway": "Juristische FVG garantieren rechtsverbindliche und manipulationssichere Formulierungen."
+    "takeaway": "Juristische FVG garantieren rechtsverbindliche und manipulationssichere Formulierungen.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-phil-26",
@@ -867,7 +873,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "schwebend als dynamisches Vorfeld"
       }
     ],
-    "takeaway": "Partizip I am Satzanfang lässt die Handlung unmittelbar vor dem Auge des Lesers entstehen."
+    "takeaway": "Partizip I am Satzanfang lässt die Handlung unmittelbar vor dem Auge des Lesers entstehen.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-phil-29",
@@ -898,7 +906,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Hätte... stünde"
       }
     ],
-    "takeaway": "Doppelte Inversion ohne Konjunktion: Die kühnste und kürzeste Form des deutschen Konditionalsatzes."
+    "takeaway": "Doppelte Inversion ohne Konjunktion: Die kühnste und kürzeste Form des deutschen Konditionalsatzes.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-phil-30",
@@ -1394,7 +1404,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "keineswegs ihn vor dem Subjekt"
       }
     ],
-    "takeaway": "Im Nebensatz dürfen Adverbien und Pronomen vor das Subjekt rücken, wenn die Rhythmik es verlangt."
+    "takeaway": "Im Nebensatz dürfen Adverbien und Pronomen vor das Subjekt rücken, wenn die Rhythmik es verlangt.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-konj-46",
@@ -1425,7 +1437,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "seien"
       }
     ],
-    "takeaway": "'sie seien' hält das Banner des Konjunktiv I im Plural hoch."
+    "takeaway": "'sie seien' hält das Banner des Konjunktiv I im Plural hoch.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c2-konj-47",
@@ -1456,7 +1469,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "brächte signalisiert Skepsis"
       }
     ],
-    "takeaway": "Konjunktiv I = neutrale Redewiedergabe; Konjunktiv II in Redewiedergabe = unverhohlene Skepsis."
+    "takeaway": "Konjunktiv I = neutrale Redewiedergabe; Konjunktiv II in Redewiedergabe = unverhohlene Skepsis.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c2-konj-48",
@@ -1487,7 +1501,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Optativer Konjunktiv I 'segne'"
       }
     ],
-    "takeaway": "Heischesätze im Konjunktiv I formulieren Rechtsurteile und feierliche Gebote."
+    "takeaway": "Heischesätze im Konjunktiv I formulieren Rechtsurteile und feierliche Gebote.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c2-konj-49",
@@ -1518,7 +1533,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "stürbe (originärer K II von sterben)"
       }
     ],
-    "takeaway": "Bäte, stünde, trüge, würfe zeugen von feinstem Sprachgefühl ohne hölzernes 'würde'."
+    "takeaway": "Bäte, stünde, trüge, würfe zeugen von feinstem Sprachgefühl ohne hölzernes 'würde'.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c2-konj-50",
@@ -1549,7 +1565,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "abgereist gewesen"
       }
     ],
-    "takeaway": "Doppelformen des Konjunktivs II markieren das absolute Grenzgebiet deutscher Tempuslogik."
+    "takeaway": "Doppelformen des Konjunktivs II markieren das absolute Grenzgebiet deutscher Tempuslogik.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "c2-top-51",
@@ -1642,7 +1659,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Infinitiv 'Zweifeln' im Vorfeld"
       }
     ],
-    "takeaway": "Prädikatsinversion (Partizip/Infinitiv an Position 1) erzeugt packende rhetorische Zuspitzung."
+    "takeaway": "Prädikatsinversion (Partizip/Infinitiv an Position 1) erzeugt packende rhetorische Zuspitzung.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-top-54",
@@ -1735,7 +1754,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "stehenden Fußes = unverzüglich auf der Stelle"
       }
     ],
-    "takeaway": "Adverbiale Genitive verleihen Schilderungen klassischen literarischen Adel."
+    "takeaway": "Adverbiale Genitive verleihen Schilderungen klassischen literarischen Adel.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-kas-57",
@@ -1828,7 +1848,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "euer aller"
       }
     ],
-    "takeaway": "'unser aller' formuliert Gesamthaftung mit staatsmännischer Würde."
+    "takeaway": "'unser aller' formuliert Gesamthaftung mit staatsmännischer Würde.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-kas-60",
@@ -1921,7 +1943,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "wieder-instand-setzen"
       }
     ],
-    "takeaway": "Doppelpräfixe modulieren Verben mit millimetergenauer semantischer Schärfe."
+    "takeaway": "Doppelpräfixe modulieren Verben mit millimetergenauer semantischer Schärfe.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-wort-63",
@@ -2231,7 +2254,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "inwiefern zusammengeschrieben"
       }
     ],
-    "takeaway": "Unterscheide: 'Solange er spricht' (Konjunktion) vs. 'Er spricht so lange' (Adverb + Adjektiv)."
+    "takeaway": "Unterscheide: 'Solange er spricht' (Konjunktion) vs. 'Er spricht so lange' (Adverb + Adjektiv).",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-orth-73",
@@ -2510,7 +2535,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "geistiges Studieren"
       }
     ],
-    "takeaway": "sich zuschulden kommen lassen und zu Gemüte führen spiegeln höchste idiomatische Reife wider."
+    "takeaway": "sich zuschulden kommen lassen und zu Gemüte führen spiegeln höchste idiomatische Reife wider.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-ext-82",
@@ -2603,7 +2629,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Inversion nach Komparativ"
       }
     ],
-    "takeaway": "Komparativ im Vorfeld erzeugt glänzende Argumentationsspitzen."
+    "takeaway": "Komparativ im Vorfeld erzeugt glänzende Argumentationsspitzen.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-ext-85",
@@ -2665,7 +2693,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "sich (Dat) der Verantwortung (Gen) bewusst"
       }
     ],
-    "takeaway": "Prädikative Dative verankern innere Haltungen und Selbstverhältnisse grammatisch präzise."
+    "takeaway": "Prädikative Dative verankern innere Haltungen und Selbstverhältnisse grammatisch präzise.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-ext-87",
@@ -2696,7 +2725,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "wenn überhaupt"
       }
     ],
-    "takeaway": "Elliptische Konditionaleinschübe (wenn nötig, falls erforderlich) straffen den Satzfluss."
+    "takeaway": "Elliptische Konditionaleinschübe (wenn nötig, falls erforderlich) straffen den Satzfluss.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "c2-ext-88",
@@ -2758,7 +2789,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "ergriff als Verb auf Pos 2"
       }
     ],
-    "takeaway": "Partizip I im Vorfeld leitet packende filmische Szenenbeschreibungen ein."
+    "takeaway": "Partizip I im Vorfeld leitet packende filmische Szenenbeschreibungen ein.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-ext-90",
@@ -2851,7 +2884,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "zur Verantwortung ziehen"
       }
     ],
-    "takeaway": "zur Rechenschaft ziehen und sich ins Benehmen setzen prägen das juristische Spitzenregister."
+    "takeaway": "zur Rechenschaft ziehen und sich ins Benehmen setzen prägen das juristische Spitzenregister.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-ext-93",
@@ -2975,7 +3009,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "wird gesichert haben"
       }
     ],
-    "takeaway": "Futur II setzt einen festen mentalen Ankerpunkt in der vollendeten Zukunft."
+    "takeaway": "Futur II setzt einen festen mentalen Ankerpunkt in der vollendeten Zukunft.",
+    "conjugation": "ich werde | du wirst | er/sie/es wird | wir werden | ihr werdet | sie/Sie werden (+ Infinitiv)"
   },
   {
     "id": "c2-ext-97",
@@ -3006,7 +3041,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "Mich dünkt = archaisches 'Es kommt mir so vor'"
       }
     ],
-    "takeaway": "Mir schwant, mir graut, mir bangt: Unpersönliche Seelenregungen meisterhaft schildern."
+    "takeaway": "Mir schwant, mir graut, mir bangt: Unpersönliche Seelenregungen meisterhaft schildern.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-ext-98",
@@ -3068,7 +3104,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "nicht ohne Notwendigkeit"
       }
     ],
-    "takeaway": "Mehrfach verneinte Litotes: Die feine Kunst der diplomatischen Zustimmung ohne Gesichtsverlust."
+    "takeaway": "Mehrfach verneinte Litotes: Die feine Kunst der diplomatischen Zustimmung ohne Gesichtsverlust.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "c2-ext-100",
@@ -3099,7 +3136,9 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "als man... hätte"
       }
     ],
-    "takeaway": "Präzise Nachfeldvergleiche mit 'als' runden hypothetische Bewertungen makellos ab."
+    "takeaway": "Präzise Nachfeldvergleiche mit 'als' runden hypothetische Bewertungen makellos ab.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "c2-ext-101",
@@ -3223,7 +3262,8 @@ window.GERMAN_DATA_C2 = [
         "breakdown": "aufs Tiefste berührt"
       }
     ],
-    "takeaway": "'aufs Schärfste' und 'auf das Herzlichste' krönen offizielle Ansprachen."
+    "takeaway": "'aufs Schärfste' und 'auf das Herzlichste' krönen offizielle Ansprachen.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "c2-ext-105",

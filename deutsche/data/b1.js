@@ -1,5 +1,4 @@
-// German Grammar B1 Dataset - 105 comprehensive topics
-// Original pedagogical examples (no examples copied from reference PDF)
+// German Grammar Topics - Level B1 - Exactly 105 Topics
 window.GERMAN_DATA_B1 = [
   {
     "id": "b1-gen-01",
@@ -30,7 +29,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "des Monats = Genitiv maskulin"
       }
     ],
-    "takeaway": "Maskulin & Neutral im Genitiv: des + Substantiv-Endung (-s / -es)."
+    "takeaway": "Maskulin & Neutral im Genitiv: des + Substantiv-Endung (-s / -es).",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-02",
@@ -61,7 +62,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "der Wahlen = Genitiv Plural"
       }
     ],
-    "takeaway": "Feminine und Plural-Substantive ändern sich im Genitiv nicht; nur der Artikel wird zu 'der'."
+    "takeaway": "Feminine und Plural-Substantive ändern sich im Genitiv nicht; nur der Artikel wird zu 'der'.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-03",
@@ -92,7 +95,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "trotz aller Schwierigkeiten (Genitiv Plural)"
       }
     ],
-    "takeaway": "'wegen' = Grund, 'trotz' = Widerspruch/Gegengrund; beide regieren im B1-Niveau den Genitiv."
+    "takeaway": "'wegen' = Grund, 'trotz' = Widerspruch/Gegengrund; beide regieren im B1-Niveau den Genitiv.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-04",
@@ -123,7 +128,11 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "anstatt einer Entschuldigung (Genitiv feminin)"
       }
     ],
-    "takeaway": "'während des/der...' beschreibt die Zeitspanne, 'statt des/der...' die Alternative."
+    "takeaway": "'während des/der...' beschreibt die Zeitspanne, 'statt des/der...' die Alternative.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-05",
@@ -154,7 +163,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "innerhalb des Unternehmens (lokal, neutral)"
       }
     ],
-    "takeaway": "Sowohl zeitlich als auch räumlich: innerhalb/außerhalb verlangen Genitiv."
+    "takeaway": "Sowohl zeitlich als auch räumlich: innerhalb/außerhalb verlangen Genitiv.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-06",
@@ -185,7 +196,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "unserer Mannschaft = Genitivattribut feminin"
       }
     ],
-    "takeaway": "Das Genitivattribut steht im Deutschen fast immer HINTER dem Bezugsnomen (Ausnahme: Eigennamen)."
+    "takeaway": "Das Genitivattribut steht im Deutschen fast immer HINTER dem Bezugsnomen (Ausnahme: Eigennamen).",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-07",
@@ -216,7 +229,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Umschreibung mit von + Dativ zur Vermeidung des Zischlauts"
       }
     ],
-    "takeaway": "Kein englischer Deppenapostroph im Standarddeutschen: Annas Buch (nicht Anna's Buch)."
+    "takeaway": "Kein englischer Deppenapostroph im Standarddeutschen: Annas Buch (nicht Anna's Buch).",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-08",
@@ -247,7 +262,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Partitiver Dativ nach 'einer von'"
       }
     ],
-    "takeaway": "Bei artikellosen Pluralnomen ist 'von + Dativ' sogar in der Schriftsprache die Norm: der Geruch von Blumen."
+    "takeaway": "Bei artikellosen Pluralnomen ist 'von + Dativ' sogar in der Schriftsprache die Norm: der Geruch von Blumen.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-09",
@@ -278,7 +295,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "infolge starker Nachfrage (Genitiv feminin)"
       }
     ],
-    "takeaway": "'aufgrund' und 'infolge' drücken formelle Ursache-Wirkungs-Zusammenhänge mit Genitiv aus."
+    "takeaway": "'aufgrund' und 'infolge' drücken formelle Ursache-Wirkungs-Zusammenhänge mit Genitiv aus.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-gen-10",
@@ -309,7 +328,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "jenseits aller Erwartungen (übertragene Bedeutung)"
       }
     ],
-    "takeaway": "Lokale Relationen an geographischen Grenzen verlangen diesseits/jenseits + Genitiv."
+    "takeaway": "Lokale Relationen an geographischen Grenzen verlangen diesseits/jenseits + Genitiv.",
+    "declensionNote": "Maskuline und neutrale Nomen erhalten im Genitiv die Endung -s oder -es (des Tages, des Kindes). Feminine und Plural-Nomen erhalten keine Nomen-Endung.",
+    "declension": "Maskulin: des + Nomen-(e)s | Feminin: der | Neutral: des + Nomen-(e)s | Plural: der"
   },
   {
     "id": "b1-adj-11",
@@ -371,7 +392,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "meines vollen (Gen M: -en)"
       }
     ],
-    "takeaway": "Gemischte Deklination: Im Nominativ und Akkusativ übernimmt das Adjektiv das Signal (der/die/das -> -er/-e/-es), sonst immer -en."
+    "takeaway": "Gemischte Deklination: Im Nominativ und Akkusativ übernimmt das Adjektiv das Signal (der/die/das -> -er/-e/-es), sonst immer -en.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "b1-adj-13",
@@ -495,7 +517,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "nichts Wichtiges (Endung -es)"
       }
     ],
-    "takeaway": "Großschreibung beachten: etwas Schönes, nichts Interessantes, alles Gute."
+    "takeaway": "Großschreibung beachten: etwas Schönes, nichts Interessantes, alles Gute.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "b1-adj-17",
@@ -557,7 +580,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "die unterschrieb-en-en (Akk Pl -> -en)"
       }
     ],
-    "takeaway": "Partizip II als Adjektiv = passivisch oder vollendet: die geöffnete Tür = die Tür, die geöffnet wurde."
+    "takeaway": "Partizip II als Adjektiv = passivisch oder vollendet: die geöffnete Tür = die Tür, die geöffnet wurde.",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b1-adj-19",
@@ -650,7 +674,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "die (Plural, Nominativ)"
       }
     ],
-    "takeaway": "Verb ans Satzende im Relativsatz! Nominativformen entsprechen den bestimmten Artikeln."
+    "takeaway": "Verb ans Satzende im Relativsatz! Nominativformen entsprechen den bestimmten Artikeln.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-22",
@@ -681,7 +707,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "die (Akkusativ Plural)"
       }
     ],
-    "takeaway": "Nur Maskulin Singular ändert sich im Akkusativ sichtbar von 'der' zu 'den'."
+    "takeaway": "Nur Maskulin Singular ändert sich im Akkusativ sichtbar von 'der' zu 'den'.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-23",
@@ -712,7 +740,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "denen (Dativ Plural: Achtung, nicht 'den'!)"
       }
     ],
-    "takeaway": "Merke: Im Dativ Plural heißt das Relativpronomen IMMER 'denen' (nicht 'den')."
+    "takeaway": "Merke: Im Dativ Plural heißt das Relativpronomen IMMER 'denen' (nicht 'den').",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-24",
@@ -743,7 +773,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "deren Kinder (Plural, Genitiv)"
       }
     ],
-    "takeaway": "dessen (Mask/Neut) & deren (Fem/Plur). Kein Artikel nach dessen/deren: 'dessen Buch', nicht 'dessen das Buch'."
+    "takeaway": "dessen (Mask/Neut) & deren (Fem/Plur). Kein Artikel nach dessen/deren: 'dessen Buch', nicht 'dessen das Buch'.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-25",
@@ -774,7 +806,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "auf die (auf + Akkusativ feminin)"
       }
     ],
-    "takeaway": "Präposition steht immer vor dem Pronomen: an dem, über das, mit denen."
+    "takeaway": "Präposition steht immer vor dem Pronomen: an dem, über das, mit denen.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-26",
@@ -805,7 +839,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "zu denen (zu + Dativ Plural)"
       }
     ],
-    "takeaway": "Bei Dativ Plural mit Präposition: mit denen, von denen, zu denen, bei denen."
+    "takeaway": "Bei Dativ Plural mit Präposition: mit denen, von denen, zu denen, bei denen.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-27",
@@ -836,7 +872,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wohin = in das"
       }
     ],
-    "takeaway": "'wo', 'wohin' und 'woher' vereinfachen lokale Relativsätze elegant."
+    "takeaway": "'wo', 'wohin' und 'woher' vereinfachen lokale Relativsätze elegant.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-28",
@@ -867,7 +905,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "das, was"
       }
     ],
-    "takeaway": "Nach alles, nichts, etwas, das, vieles steht IMMER 'was' als Relativpronomen."
+    "takeaway": "Nach alles, nichts, etwas, das, vieles steht IMMER 'was' als Relativpronomen.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-29",
@@ -898,7 +938,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Klassisches Sprichwort mit generalisierendem 'wer'"
       }
     ],
-    "takeaway": "Wer/wen/wem leitet personelle Verallgemeinerungen ohne festes Bezugswort ein."
+    "takeaway": "Wer/wen/wem leitet personelle Verallgemeinerungen ohne festes Bezugswort ein.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-rel-30",
@@ -929,7 +971,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "mit deren Veröffentlichung (Bezugswort Trilogie feminin)"
       }
     ],
-    "takeaway": "Präposition + dessen/deren + Nomen erlaubt präzise, stilistisch geschliffene Bezüge."
+    "takeaway": "Präposition + dessen/deren + Nomen erlaubt präzise, stilistisch geschliffene Bezüge.",
+    "syntaxNote": "Relativsätze sind Nebensätze: Das konjugierte Verb steht immer am Satzende.",
+    "syntax": "[Hauptsatz], + [Relativpronomen: der/die/das/den/dem/dessen] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-inf-31",
@@ -960,7 +1004,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "zu unterbrechen (untrennbar: 'zu' steht davor)"
       }
     ],
-    "takeaway": "zu + Infinitiv steht ganz am Satzende; ein Komma trennt Hauptsatz und Infinitivgruppe."
+    "takeaway": "zu + Infinitiv steht ganz am Satzende; ein Komma trennt Hauptsatz und Infinitivgruppe.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-32",
@@ -991,7 +1037,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "ab-zu-melden"
       }
     ],
-    "takeaway": "Ein Wort: an-zu-rufen, mit-zu-bringen, ein-zu-laden, auf-zu-hören."
+    "takeaway": "Ein Wort: an-zu-rufen, mit-zu-bringen, ein-zu-laden, auf-zu-hören.",
+    "syntaxNote": "Das trennbare Präfix wandert an die allerletzte Stelle des Hauptsatzes.",
+    "syntax": "[S: Subjekt] + [Verbstamm (Pos 2)] + [Mittelfeld] + [Präfix (Satzende)]"
   },
   {
     "id": "b1-inf-33",
@@ -1022,7 +1070,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "planen + zu reisen"
       }
     ],
-    "takeaway": "Verben der Absicht, Hoffnung und Aufforderung regieren häufig 'zu + Infinitiv'."
+    "takeaway": "Verben der Absicht, Hoffnung und Aufforderung regieren häufig 'zu + Infinitiv'.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-34",
@@ -1053,7 +1103,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "keine Zeit haben + zu lesen"
       }
     ],
-    "takeaway": "Lust / Zeit / Mut / Angst haben verlangt fast immer 'zu + Infinitiv'."
+    "takeaway": "Lust / Zeit / Mut / Angst haben verlangt fast immer 'zu + Infinitiv'.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-35",
@@ -1084,7 +1136,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Es wäre ratsam + zu prüfen"
       }
     ],
-    "takeaway": "Es ist schön/wichtig/gesund/gefährlich, ... zu tun."
+    "takeaway": "Es ist schön/wichtig/gesund/gefährlich, ... zu tun.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-36",
@@ -1115,7 +1169,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "bleiben + Infinitiv ohne zu"
       }
     ],
-    "takeaway": "Niemals 'zu' bei Modalverben sowie nach sehen, hören, gehen, lassen, bleiben."
+    "takeaway": "Niemals 'zu' bei Modalverben sowie nach sehen, hören, gehen, lassen, bleiben.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-37",
@@ -1146,7 +1202,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "um... hereinzulassen"
       }
     ],
-    "takeaway": "Gleiches Subjekt + Zweck = 'um... zu + Infinitiv'."
+    "takeaway": "Gleiches Subjekt + Zweck = 'um... zu + Infinitiv'.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-38",
@@ -1177,7 +1235,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Er vs. ich -> 'damit'"
       }
     ],
-    "takeaway": "Subjektwechsel verlangt 'damit'. Gleiches Subjekt bevorzugt 'um... zu'."
+    "takeaway": "Subjektwechsel verlangt 'damit'. Gleiches Subjekt bevorzugt 'um... zu'.",
+    "syntaxNote": "Bei trennbaren Verben schiebt sich 'zu' zwischen Präfix und Stamm: einkaufen -> einzukaufen.",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [um / ohne / anstatt]? + [Mittelfeld] + [zu + Infinitiv (Satzende)]"
   },
   {
     "id": "b1-inf-39",
@@ -1208,7 +1268,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wir vs. Chef -> ohne dass"
       }
     ],
-    "takeaway": "ohne... zu (ein Subjekt) vs. ohne dass (zwei Subjekte)."
+    "takeaway": "ohne... zu (ein Subjekt) vs. ohne dass (zwei Subjekte).",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-inf-40",
@@ -1239,7 +1301,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "anstatt dass"
       }
     ],
-    "takeaway": "anstatt... zu = anstelle einer anderen Handlung bei gleicher handelnder Person."
+    "takeaway": "anstatt... zu = anstelle einer anderen Handlung bei gleicher handelnder Person.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-zeit-41",
@@ -1301,7 +1365,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "waren geblieben"
       }
     ],
-    "takeaway": "Bewegung & Zustandswechsel: 'war gegangen', 'war eingeschlafen', 'war angekommen'."
+    "takeaway": "Bewegung & Zustandswechsel: 'war gegangen', 'war eingeschlafen', 'war angekommen'.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-zeit-43",
@@ -1332,7 +1397,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "angekommen waren -> packten aus"
       }
     ],
-    "takeaway": "'nachdem' verlangt strikte Vorzeitigkeit: Plusquamperfekt vor Präteritum."
+    "takeaway": "'nachdem' verlangt strikte Vorzeitigkeit: Plusquamperfekt vor Präteritum.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-zeit-44",
@@ -1363,7 +1430,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "bevor + losfährst"
       }
     ],
-    "takeaway": "'bevor' gibt die Handlung an, die zeitlich danach passiert."
+    "takeaway": "'bevor' gibt die Handlung an, die zeitlich danach passiert.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-zeit-45",
@@ -1394,7 +1463,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Bedingung und zeitliche Dauer zugleich"
       }
     ],
-    "takeaway": "'während' betont die Parallelität zweier Handlungen; 'solange' die Dauer."
+    "takeaway": "'während' betont die Parallelität zweier Handlungen; 'solange' die Dauer.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-zeit-46",
@@ -1425,7 +1496,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sobald mit Vorzeitigkeit (Plusquamperfekt Passiv)"
       }
     ],
-    "takeaway": "'sobald' = genau in dem Moment, wo etwas eintritt (as soon as)."
+    "takeaway": "'sobald' = genau in dem Moment, wo etwas eintritt (as soon as).",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-zeit-47",
@@ -1518,7 +1591,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wird sein"
       }
     ],
-    "takeaway": "werden + wohl/wahrscheinlich + Infinitiv = Vermutung über die Gegenwart."
+    "takeaway": "werden + wohl/wahrscheinlich + Infinitiv = Vermutung über die Gegenwart.",
+    "conjugation": "ich werde | du wirst | er/sie/es wird | wir werden | ihr werdet | sie/Sie werden (+ Infinitiv)"
   },
   {
     "id": "b1-zeit-50",
@@ -1549,7 +1623,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "offizielle Ankündigung"
       }
     ],
-    "takeaway": "Futur I verleiht einem Entschluss oder einer Anweisung formelle Entschiedenheit."
+    "takeaway": "Futur I verleiht einem Entschluss oder einer Anweisung formelle Entschiedenheit.",
+    "conjugation": "ich werde | du wirst | er/sie/es wird | wir werden | ihr werdet | sie/Sie werden (+ Infinitiv)"
   },
   {
     "id": "b1-pas-51",
@@ -1580,7 +1655,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wird zugestellt"
       }
     ],
-    "takeaway": "Präsens Passiv: werden (Präsens) + Partizip II ganz am Ende."
+    "takeaway": "Präsens Passiv: werden (Präsens) + Partizip II ganz am Ende.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-pas-52",
@@ -1611,7 +1688,10 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wurden unterschrieben"
       }
     ],
-    "takeaway": "Präteritum Passiv: wurde / wurden + Partizip II."
+    "takeaway": "Präteritum Passiv: wurde / wurden + Partizip II.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [wurde / wurden (Pos 2)] + [von + Dativ] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b1-pas-53",
@@ -1642,7 +1722,10 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "ist beschädigt worden"
       }
     ],
-    "takeaway": "Achtung: 'worden', nicht 'geworden'! (geworden steht nur bei Vollverb sein: er ist alt geworden)."
+    "takeaway": "Achtung: 'worden', nicht 'geworden'! (geworden steht nur bei Vollverb sein: er ist alt geworden).",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [sein (Pos 2)] + [von + Dativ] + [Partizip II] + [worden (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b1-pas-54",
@@ -1673,7 +1756,10 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "waren korrigiert worden"
       }
     ],
-    "takeaway": "Plusquamperfekt Passiv = war + Partizip II + worden."
+    "takeaway": "Plusquamperfekt Passiv = war + Partizip II + worden.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b1-pas-55",
@@ -1704,7 +1790,10 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "soll saniert werden"
       }
     ],
-    "takeaway": "Satzklammer: Modalverb vorne, 'Partizip II + werden' am Ende."
+    "takeaway": "Satzklammer: Modalverb vorne, 'Partizip II + werden' am Ende.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt] + [Modalverb (Pos 2)] + [von + Dativ] + [Partizip II] + [werden (Satzende)]",
+    "conjugation": "ich werde ... | du wirst ... | er/sie/es wird ... | wir werden ... | ihr werdet ... | sie werden ... (+ Partizip II)"
   },
   {
     "id": "b1-pas-56",
@@ -1735,7 +1824,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sollte verschickt werden"
       }
     ],
-    "takeaway": "Präteritum Modalverb + Partizip II + werden."
+    "takeaway": "Präteritum Modalverb + Partizip II + werden.",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [wurde / wurden (Pos 2)] + [von + Dativ] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-pas-57",
@@ -1766,7 +1857,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "durch gezielte Werbung (Mittel = durch + Akk)"
       }
     ],
-    "takeaway": "'von' = wer tut es (Agent), 'durch' = womit oder wodurch (Instrument/Vermittlung)."
+    "takeaway": "'von' = wer tut es (Agent), 'durch' = womit oder wodurch (Instrument/Vermittlung).",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-pas-58",
@@ -1797,7 +1890,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Dativobjekt 'ihm' bleibt im Dativ!"
       }
     ],
-    "takeaway": "Dativobjekte bleiben im Passiv im Dativ: 'Ihm wird geholfen' (nicht 'Er wird geholfen')."
+    "takeaway": "Dativobjekte bleiben im Passiv im Dativ: 'Ihm wird geholfen' (nicht 'Er wird geholfen').",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-pas-59",
@@ -1828,7 +1923,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "intransitive Verben der Bewegung bilden kein Vorgangspassiv"
       }
     ],
-    "takeaway": "Prüfe vor dem Passivieren: Hat das Verb im Aktiv ein echtes Akkusativobjekt?"
+    "takeaway": "Prüfe vor dem Passivieren: Hat das Verb im Aktiv ein echtes Akkusativobjekt?",
+    "syntaxNote": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes. Der Urheber entfällt oder steht mit 'von + Dativ'.",
+    "syntax": "[S: Subjekt (Patient)] + [werden (konjugiert Pos 2)] + [von + Dativ (Agens)] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-pas-60",
@@ -1859,7 +1956,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "freigegeben werden kann (Modalverb ganz am Ende)"
       }
     ],
-    "takeaway": "Im Nebensatz steht das Hilfsverb an allerletzter Stelle: ... repariert worden ist."
+    "takeaway": "Im Nebensatz steht das Hilfsverb an allerletzter Stelle: ... repariert worden ist.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-k2-61",
@@ -1890,7 +1989,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Höflicher Wunsch im Restaurant"
       }
     ],
-    "takeaway": "würde + Infinitiv ist bei regelmäßigen Verben im Alltag absolut üblich."
+    "takeaway": "würde + Infinitiv ist bei regelmäßigen Verben im Alltag absolut üblich.",
+    "syntax": "[S: Subjekt] + [würde (konjugiert Pos 2)] + [Mittelfeld] + [Infinitiv (Satzende)]",
+    "conjugation": "ich würde | du würdest | er/sie/es würde | wir würden | ihr würdet | sie/Sie würden (+ Infinitiv)"
   },
   {
     "id": "b1-k2-62",
@@ -1921,7 +2022,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Es wäre + könnten"
       }
     ],
-    "takeaway": "Niemals 'würde haben' oder 'würde sein' sagen – immer 'hätte' und 'wäre'!"
+    "takeaway": "Niemals 'würde haben' oder 'würde sein' sagen – immer 'hätte' und 'wäre'!",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]",
+    "conjugation": "hätte / hättest / hätte / hätten / hättet / hätten || wäre / wärst / wäre / wären / wärt / wären"
   },
   {
     "id": "b1-k2-63",
@@ -1952,7 +2055,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "dürfte = extrem höfliche Frage"
       }
     ],
-    "takeaway": "Achtung: 'sollte' und 'wollte' bekommen im Konjunktiv II KEINEN Umlaut!"
+    "takeaway": "Achtung: 'sollte' und 'wollte' bekommen im Konjunktiv II KEINEN Umlaut!",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b1-k2-64",
@@ -1983,7 +2087,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Wunsch am Arbeitsplatz"
       }
     ],
-    "takeaway": "Signalwörter für Wünsche: 'doch', 'bloß', 'nur' mit Ausrufezeichen."
+    "takeaway": "Signalwörter für Wünsche: 'doch', 'bloß', 'nur' mit Ausrufezeichen.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-k2-65",
@@ -2014,7 +2120,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Inversion ohne 'wenn'"
       }
     ],
-    "takeaway": "Beide Satzteile stehen im Konjunktiv II: Wenn ich hätte, würde ich tun."
+    "takeaway": "Beide Satzteile stehen im Konjunktiv II: Wenn ich hätte, würde ich tun.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b1-k2-66",
@@ -2045,7 +2152,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "hätte bestanden -> gelernt hätte"
       }
     ],
-    "takeaway": "Vergangenheit im Konjunktiv II: 'hätte gemacht' / 'wäre gegangen' (irreale Vergangenheit)."
+    "takeaway": "Vergangenheit im Konjunktiv II: 'hätte gemacht' / 'wäre gegangen' (irreale Vergangenheit).",
+    "syntax": "[S: Subjekt] + [wäre / hätte (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]",
+    "conjugation": "Regelmäßig: ge- + Stamm + -t (z.B. gekauft, gelernt, gemacht, gehört)"
   },
   {
     "id": "b1-k2-67",
@@ -2076,7 +2185,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "gehört hätte"
       }
     ],
-    "takeaway": "Irrealer Wunsch der Vergangenheit = Ausdruck von Reue und Bedauern."
+    "takeaway": "Irrealer Wunsch der Vergangenheit = Ausdruck von Reue und Bedauern.",
+    "syntax": "[S: Subjekt] + [wäre / hätte (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-k2-68",
@@ -2107,7 +2217,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "als wäre... gewesen"
       }
     ],
-    "takeaway": "'als ob' verlangt Verb am Ende; 'als' allein verlangt Verb auf Position 2."
+    "takeaway": "'als ob' verlangt Verb am Ende; 'als' allein verlangt Verb auf Position 2.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-k2-69",
@@ -2138,7 +2250,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "hätten fast verpasst"
       }
     ],
-    "takeaway": "'fast/beinahe hätte/wäre' drückt ein knapp vermiedenes Unglück aus."
+    "takeaway": "'fast/beinahe hätte/wäre' drückt ein knapp vermiedenes Unglück aus.",
+    "syntax": "[S: Subjekt] + [wäre / hätte (Pos 2)] + [Mittelfeld] + [Partizip II (Satzende)]"
   },
   {
     "id": "b1-k2-70",
@@ -2169,7 +2282,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Höfliche Bitte bei Tisch"
       }
     ],
-    "takeaway": "Höflichkeit im Alltag: Immer Konjunktiv II statt Befehlsform nutzen."
+    "takeaway": "Höflichkeit im Alltag: Immer Konjunktiv II statt Befehlsform nutzen.",
+    "syntax": "[S: Subjekt] + [Konjunktiv-II-Form (Pos 2)] + [Mittelfeld / Ergänzung]"
   },
   {
     "id": "b1-ndek-71",
@@ -2510,7 +2624,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "jeden Morgen (Te) - zur Entspannung (Ka) - zügig (Mo) - durch den Park (Lo)"
       }
     ],
-    "takeaway": "TeKaMoLo merken: Temporal vor Kausal vor Modal vor Lokal."
+    "takeaway": "TeKaMoLo merken: Temporal vor Kausal vor Modal vor Lokal.",
+    "syntaxNote": "Reihenfolge der Angaben im Mittelfeld: Temporal vor Kausal vor Modal vor Lokal (Te-Ka-Mo-Lo).",
+    "syntax": "[S: Subjekt] + [V finit (Pos 2)] + [Temporal (Wann?)] + [Kausal (Warum?)] + [Modal (Wie?)] + [Lokal (Wo/Wohin?)] + [Objekt]"
   },
   {
     "id": "b1-satz-82",
@@ -2572,7 +2688,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Theorie und Praxis"
       }
     ],
-    "takeaway": "'nicht nur... sondern auch' betont, dass beide Aspekte uneingeschränkt zutreffen."
+    "takeaway": "'nicht nur... sondern auch' betont, dass beide Aspekte uneingeschränkt zutreffen.",
+    "syntax": "Nomen mit 'ein'/Nullartikel: kein/keine + Nomen | Verben/Adjektive: ... + nicht (am Satzende)"
   },
   {
     "id": "b1-satz-84",
@@ -2758,7 +2875,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "deshalb steht auf Pos 1, danach folgt sofort das Verb 'bleibt'"
       }
     ],
-    "takeaway": "Vier Wege für 'why': weil (Verb Ende), da (Verb Ende), denn (S+V), deshalb (V+S)."
+    "takeaway": "Vier Wege für 'why': weil (Verb Ende), da (Verb Ende), denn (S+V), deshalb (V+S).",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-satz-90",
@@ -2789,7 +2908,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sodass... waren"
       }
     ],
-    "takeaway": "'sodass' zeigt das unausweichliche Ergebnis einer vorangegangenen Handlung."
+    "takeaway": "'sodass' zeigt das unausweichliche Ergebnis einer vorangegangenen Handlung.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-satz-91",
@@ -2820,7 +2941,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "trotzdem haben fast alle bestanden"
       }
     ],
-    "takeaway": "Niemals 'obwohl' und 'trotzdem' im selben Teilsatz mischen!"
+    "takeaway": "Niemals 'obwohl' und 'trotzdem' im selben Teilsatz mischen!",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-satz-92",
@@ -2882,7 +3005,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "Dadurch, dass an Position 1"
       }
     ],
-    "takeaway": "'indem' entspricht dem englischen 'by + Gerund': Man lernt, indem man übt."
+    "takeaway": "'indem' entspricht dem englischen 'by + Gerund': Man lernt, indem man übt.",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-satz-94",
@@ -2913,7 +3038,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "wirtschaftlicher Trendkontrast"
       }
     ],
-    "takeaway": "'während' hat zwei Gesichter: temporal (zur selben Zeit) oder adversativ (im Gegensatz dazu)."
+    "takeaway": "'während' hat zwei Gesichter: temporal (zur selben Zeit) oder adversativ (im Gegensatz dazu).",
+    "syntaxNote": "Verbletztstellung: Im Nebensatz wandert das konjugierte Verb an die allerletzte Position!",
+    "syntax": "[Hauptsatz: S + V (Pos 2)], + [Konnektor] + [S: Subjekt] + [Mittelfeld] + [V: Finites Verb (Satzende)]"
   },
   {
     "id": "b1-satz-95",
@@ -2944,7 +3071,9 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "stattdessen (Pos 1) -> schaffte (Verb Pos 2)"
       }
     ],
-    "takeaway": "Konnektoren auf Position 1 verlangen immer Inversion: Konnektor + Verb + Subjekt."
+    "takeaway": "Konnektoren auf Position 1 verlangen immer Inversion: Konnektor + Verb + Subjekt.",
+    "syntaxNote": "Inversion: Wenn ein anderes Element an Position 1 steht, tauschen Subjekt und Verb die Plätze.",
+    "syntax": "[Angabe Zeit / Ort (Pos 1)] + [V: Finites Verb (Pos 2)] + [S: Subjekt (Pos 3)] + [Objekt / Rest]"
   },
   {
     "id": "b1-vpr-96",
@@ -2975,7 +3104,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sich gewöhnen an + Akkusativ"
       }
     ],
-    "takeaway": "denken/erinnern/gewöhnen + AN + Akk; teilnehmen/leiden/zweifeln + AN + Dat."
+    "takeaway": "denken/erinnern/gewöhnen + AN + Akk; teilnehmen/leiden/zweifeln + AN + Dat.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-97",
@@ -3006,7 +3136,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "achten auf + Akkusativ"
       }
     ],
-    "takeaway": "warten/freuen/achten/verlassen + AUF + Akkusativ."
+    "takeaway": "warten/freuen/achten/verlassen + AUF + Akkusativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-98",
@@ -3037,7 +3168,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sich entscheiden für + Akkusativ"
       }
     ],
-    "takeaway": "interessieren/sorgen/danken/entscheiden + FÜR + Akkusativ."
+    "takeaway": "interessieren/sorgen/danken/entscheiden + FÜR + Akkusativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-99",
@@ -3068,7 +3200,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "berichten über + Akkusativ"
       }
     ],
-    "takeaway": "sprechen/ärgern/lachen/nachdenken/berichten + ÜBER + Akkusativ."
+    "takeaway": "sprechen/ärgern/lachen/nachdenken/berichten + ÜBER + Akkusativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-100",
@@ -3099,7 +3232,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "es geht um + Akkusativ"
       }
     ],
-    "takeaway": "bitten/kümmern/bewerben/es geht + UM + Akkusativ."
+    "takeaway": "bitten/kümmern/bewerben/es geht + UM + Akkusativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-101",
@@ -3130,7 +3264,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "sich erholen von + Dativ"
       }
     ],
-    "takeaway": "abhängen/träumen/halten/erholen + VON + Dativ."
+    "takeaway": "abhängen/träumen/halten/erholen + VON + Dativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-102",
@@ -3161,7 +3296,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "passen zu + Dativ"
       }
     ],
-    "takeaway": "gehören/gratulieren/führen/passen + ZU + Dativ."
+    "takeaway": "gehören/gratulieren/führen/passen + ZU + Dativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-103",
@@ -3192,7 +3328,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "vergleichen mit + Dativ"
       }
     ],
-    "takeaway": "anfangen/aufhören/beschäftigen/rechnen + MIT + Dativ."
+    "takeaway": "anfangen/aufhören/beschäftigen/rechnen + MIT + Dativ.",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-104",
@@ -3223,7 +3360,8 @@ window.GERMAN_DATA_B1 = [
         "breakdown": "darüber = über das Warten / die Situation"
       }
     ],
-    "takeaway": "Sachen = da(r)-Kompositum (dafür, daran). Personen = Präposition + Personalpronomen (für ihn, an sie)."
+    "takeaway": "Sachen = da(r)-Kompositum (dafür, daran). Personen = Präposition + Personalpronomen (für ihn, an sie).",
+    "syntax": "[S: Subjekt] + [V: Finites Verb (Pos 2)] + [O: Objekt / Angaben]"
   },
   {
     "id": "b1-vpr-105",
