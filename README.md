@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-This repository hosts the personal portfolio website and comprehensive technical interview preparation blog for **Ajay Singh Pundir**, Technical Lead with 12+ years of security-focused backend engineering across banking, automotive, and fintech (currently leading Authentication & Authorization at **Elli - Volkswagen Charging GmbH**; M.Sc. in Data Science from the **University of Münster**).
+This repository hosts the personal portfolio website and comprehensive technical interview preparation blog for **Ajay Singh Pundir**, Technical Lead with 12+ years of security-focused backend engineering across banking, automotive, and fintech (currently leading Authentication & Authorization at **Elli - Volkswagen Charging GmbH**, operating at ~450K auth requests/day across 1M+ charging points in 28 countries for 3M+ users; M.Sc. in Data Science from the **University of Münster**).
 
 The repository is built with vanilla HTML5, modern CSS3, and responsive JavaScript, specifically designed for zero-build, zero-dependency deployment on **GitHub Pages**.
 
