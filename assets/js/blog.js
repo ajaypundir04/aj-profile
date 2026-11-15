@@ -179,6 +179,8 @@
   function createQuestionCardHTML(q) {
     const isReviewed = reviewedSet.has(q.id);
     const diffClass = (q.difficulty || 'medium').toLowerCase();
+    const hasJava = (q.answer && q.answer.includes('```java'));
+    const javaBadgeHTML = hasJava ? `<span class="badge-java">☕ Java Solution</span>` : '';
 
     const keyPointsHTML = (q.keyPoints && q.keyPoints.length) ? `
       <div class="key-points-box">
@@ -212,6 +214,7 @@
               ${q.trackName ? `<span class="category-badge">${escapeHTML(q.trackName)}</span>` : ''}
               <span class="category-badge">${escapeHTML(q.category || '')}</span>
               <span class="diff-badge ${diffClass}">${escapeHTML(q.difficulty || 'Medium')}</span>
+              ${javaBadgeHTML}
             </div>
             <div class="card-actions-right" onclick="event.stopPropagation()">
               <button class="review-toggle-btn ${isReviewed ? 'checked' : ''}" 
@@ -220,7 +223,11 @@
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
                 <span>${isReviewed ? 'Reviewed' : 'Review'}</span>
               </button>
-              <svg class="expand-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              <button class="view-solution-btn" onclick="window.toggleQuestionCard('${q.id}'); event.stopPropagation();" title="Click to view solution and code">
+                <span class="btn-text-closed">View Solution</span>
+                <span class="btn-text-open">Hide Solution</span>
+                <svg class="expand-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
             </div>
           </div>
           <h3 class="question-title">${escapeHTML(q.title)}</h3>
@@ -291,6 +298,26 @@
     const card = document.getElementById(id);
     if (!card) return;
     card.classList.toggle('open');
+  };
+
+  let allSolutionsExpanded = false;
+  window.toggleAllSolutions = function () {
+    const cards = document.querySelectorAll('.question-card');
+    allSolutionsExpanded = !allSolutionsExpanded;
+    cards.forEach(c => {
+      if (allSolutionsExpanded) {
+        c.classList.add('open');
+      } else {
+        c.classList.remove('open');
+      }
+    });
+    const btn = document.getElementById('toggle-all-btn');
+    if (btn) {
+      const label = btn.querySelector('span');
+      if (label) {
+        label.textContent = allSolutionsExpanded ? 'Collapse All Solutions' : 'Expand All Solutions';
+      }
+    }
   };
 
   window.toggleReviewStatus = function (id, event) {
