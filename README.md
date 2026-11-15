@@ -74,30 +74,35 @@ The embedded technical blog includes **110+ comprehensive, architect-level quest
 
 ---
 
-## 🛠️ How to Enable GitHub Pages
+## 🛠️ Automated CI/CD Deployment with GitHub Actions
 
-To publish this repository on **GitHub Pages**:
+This repository is configured with an automated **GitHub Actions** workflow ([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)):
 
-1. **Push this repository to GitHub**:
-   ```bash
-   git add .
-   git commit -m "feat: profile page and 440+ interview questions blog"
-   git branch -M main
-   git remote add origin https://github.com/ajaypundir04/<repo-name>.git
-   git push -u origin main
-   ```
+```mermaid
+flowchart LR
+    A[Push to main] --> B[Checkout Code]
+    B --> C[Verify 440+ Questions & Links]
+    C --> D[Upload Pages Artifact]
+    D --> E[Deploy to GitHub Pages]
+```
 
-2. **Enable GitHub Pages in Repository Settings**:
-   - Navigate to your repository on GitHub.
-   - Go to **Settings** → **Pages** (in the left sidebar).
-   - Under **Build and deployment**:
-     - **Source**: Select `Deploy from a branch`.
-     - **Branch**: Choose `main` (or `gh-pages`) and folder `/ (root)`.
-     - Click **Save**.
+### 1. Push to GitHub
+```bash
+git add .
+git commit -m "feat: complete profile page, 4-track interview prep hub, and GitHub Actions CI/CD"
+git branch -M main
+git remote add origin https://github.com/ajaypundir04/<repo-name>.git
+git push -u origin main
+```
 
-3. **Access Your Live Site**:
-   - Within 1–2 minutes, GitHub Pages will deploy your site at:
-     `https://<your-username>.github.io/<repo-name>/`
+### 2. Configure GitHub Pages to use GitHub Actions
+1. Open your repository on GitHub.
+2. Go to **Settings** → **Pages** (in the left sidebar).
+3. Under **Build and deployment**:
+   - In the **Source** dropdown, select **GitHub Actions**.
+4. That's it! GitHub will now trigger your `.github/workflows/deploy.yml` workflow automatically on every push to `main`.
+5. You can view the live progress under the **Actions** tab. Once completed, your site will be live at:
+   `https://ajaypundir04.github.io/<repo-name>/`
 
 ---
 
