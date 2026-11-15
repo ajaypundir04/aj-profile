@@ -134,7 +134,7 @@ template = """<!DOCTYPE html>
 
       <nav class="nav-links" id="nav-links">
         <a href="../blog/index.html" class="nav-link" style="color: var(--accent-primary); font-weight: 700;">← Back to Blog</a>
-        <a href="../index.html" class="nav-link">Main Profile</a>
+        <a href="../index.html" class="nav-link">Profile</a>
         <a href="index.html" class="nav-link">Alle Stufen (630)</a>
         <a href="a1.html" class="nav-link{active_a1}">A1</a>
         <a href="a2.html" class="nav-link{active_a2}">A2</a>
