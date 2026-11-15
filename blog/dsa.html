@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Interview Questions (110 Curated Problems) | Ajay Singh Pundir</title>
+  <meta name="description" content="110+ curated Data Structures and Algorithms interview questions with optimal solutions, complexities, and patterns.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/blog.css">
+</head>
+<body data-page-track="dsa">
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="../index.html" class="logo">
+        <span class="logo-badge">AP</span>
+        <span>Ajay Singh Pundir</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="../index.html" class="nav-link">Profile</a>
+        <a href="index.html" class="nav-link">All Tracks</a>
+        <a href="dsa.html" class="nav-link active">DSA (110)</a>
+        <a href="system-design.html" class="nav-link">System Design (110)</a>
+        <a href="security.html" class="nav-link">Security (110)</a>
+        <a href="ai.html" class="nav-link">AI & ML (110)</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+        <a href="../assets/resume_ajay_pundir.pdf" download class="btn btn-primary btn-sm">Resume</a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="blog-header">
+      <div class="hero-eyebrow" style="margin-bottom: 0.75rem;">
+        <span class="status-dot"></span>
+        Track 01 • Data Structures & Algorithms
+      </div>
+      <h1 class="blog-hero-title">Data Structures & Algorithms</h1>
+      <p class="blog-hero-desc">
+        110 curated DSA interview problems covering Sliding Window, Monotonic Stacks, Binary Search on Answer, Tree/Graph traversals, Dynamic Programming, and Bit Manipulation.
+      </p>
+
+      <div class="progress-card">
+        <div class="progress-header">
+          <div class="progress-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            DSA Track Progress
+          </div>
+          <div class="progress-stats" id="progress-stats">0 / 110 (0%) Completed</div>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-toolbar">
+      <div class="search-box">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Search DSA questions, patterns, complexities... (Press '/' to focus)">
+        <button id="clear-search-btn" class="search-clear-btn" title="Clear search">✕</button>
+      </div>
+
+      <div class="secondary-filters-row">
+        <select id="category-filter" class="filter-select">
+          <option value="all">All Categories</option>
+        </select>
+
+        <select id="difficulty-filter" class="filter-select">
+          <option value="all">All Difficulties</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+
+        <select id="status-filter" class="filter-select">
+          <option value="all">All Status</option>
+          <option value="unreviewed">Unreviewed Only</option>
+          <option value="reviewed">Reviewed Only</option>
+        </select>
+
+        <div class="results-count-label" id="results-count">Showing 110 questions</div>
+      </div>
+    </div>
+
+    <div class="questions-list" id="questions-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-copyright">
+      © 2026 Ajay Singh Pundir • Data Structures & Algorithms Track
+    </div>
+  </footer>
+
+  <script src="../assets/js/data/dsa.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/blog.js"></script>
+</body>
+</html>
