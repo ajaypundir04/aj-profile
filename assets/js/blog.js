@@ -251,11 +251,29 @@
 
   function formatAnswer(text) {
     if (!text) return '';
-    // Escape HTML first
-    let formatted = escapeHTML(text);
-    // Format backticks as code
-    formatted = formatted.replace(/`([^`]+)`/g, '<code>$1</code>');
-    return formatted;
+    // Split by fenced code blocks ```lang ... ```
+    const parts = text.split(/(```[\s\S]*?```)/g);
+    return parts.map(part => {
+      if (part.startsWith('```') && part.endsWith('```')) {
+        const trimmed = part.slice(3, -3).trim();
+        const firstLineEnd = trimmed.indexOf('\n');
+        let lang = 'java';
+        let code = trimmed;
+        if (firstLineEnd !== -1) {
+          const firstWord = trimmed.slice(0, firstLineEnd).trim();
+          if (/^[a-zA-Z0-9_-]+$/.test(firstWord)) {
+            lang = firstWord;
+            code = trimmed.slice(firstLineEnd + 1);
+          }
+        }
+        return `<pre class="code-block"><code class="language-${lang}">${escapeHTML(code)}</code></pre>`;
+      } else {
+        // Plain text: escape HTML, format inline backticks, convert newlines
+        let formatted = escapeHTML(part);
+        formatted = formatted.replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>');
+        return formatted.replace(/\n/g, '<br>');
+      }
+    }).join('');
   }
 
   function escapeHTML(str) {

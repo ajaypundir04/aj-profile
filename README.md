@@ -6,7 +6,7 @@
 
 > **Live Profile & Engineering Hub:** [ajaypundir04.github.io/aj-profile](https://ajaypundir04.github.io/aj-profile/)  
 > **Resume:** [Download PDF](resume_ajay_pundir.pdf)  
-> **Location:** Wolfsburg, Germany • [Email](mailto:ajaysinghpundir70@gmail.com) • [LinkedIn](https://linkedin.com/in/ajaysinghpundir) • [GitHub](https://github.com/ajaypundir04)
+> **Location:** Berlin, Germany • [Email](mailto:ajaysinghpundir70@gmail.com) • [LinkedIn](https://linkedin.com/in/ajaysinghpundir) • [GitHub](https://github.com/ajaypundir04)
 
 ---
 
