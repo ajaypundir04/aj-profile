@@ -569,12 +569,12 @@
 
 /* Example Sentence Blocks */
 .examples-title {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--text-muted);
-  margin: 1rem 0 0.75rem;
+  color: var(--text-secondary);
+  margin: 1.25rem 0 0.75rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -755,16 +755,23 @@
 }
 
 [data-theme="light"] .box-header {
-  color: #475569;
+  color: #0f172a !important;
+  font-weight: 800;
 }
 
-/* German Example Sentence (Explicitly Dark in Day Theme) */
+/* German Example Title & Sentences (Explicitly Dark in Day Theme) */
+[data-theme="light"] .examples-title {
+  color: #0f172a !important;
+  font-weight: 800;
+}
+
 [data-theme="light"] .example-de {
   color: #0f172a !important;
+  font-weight: 700;
 }
 
 [data-theme="light"] .example-en {
-  color: #334155;
+  color: #1e293b !important;
 }
 
 [data-theme="light"] .example-breakdown {
