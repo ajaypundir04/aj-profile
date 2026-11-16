@@ -271,6 +271,10 @@ template = """<!DOCTYPE html>
   </script>
   <script src="js/german.js"></script>
   <script src="../assets/js/main.js"></script>
+
+  <!-- Analytics -->
+  <script data-goatcounter="https://ajaypundir04.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """

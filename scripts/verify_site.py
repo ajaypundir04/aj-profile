@@ -130,6 +130,8 @@ def verify():
         # Script tags
         scripts = re.findall(r'<script[^>]+src=[\"\'](.*?)[\"\']', content)
         for s in scripts:
+            if s.startswith('http') or s.startswith('//'):
+                continue
             target = os.path.normpath(os.path.join(os.path.dirname(h), s))
             if not os.path.isfile(target):
                 print(f"❌ Broken script reference in {h}: {s} -> {target}")
