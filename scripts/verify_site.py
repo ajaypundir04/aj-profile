@@ -17,6 +17,8 @@ def verify():
     essential_files = [
         'index.html',
         '.nojekyll',
+        'robots.txt',
+        'sitemap.xml',
         'resume_ajay_pundir.pdf',
         'blog/index.html',
         'blog/dsa.html',
@@ -146,6 +148,67 @@ def verify():
                 print(f"❌ Broken stylesheet reference in {h}: {st} -> {target}")
                 sys.exit(1)
         print(f"✅ Verified asset references in: {h}")
+
+    # 5. Check SEO & AI Search Optimization
+    print("=" * 60)
+    print("Checking SEO & AI Search Optimization...")
+    print("=" * 60)
+
+    # 5a. Validate sitemap.xml
+    import xml.etree.ElementTree as ET
+    try:
+        tree = ET.parse('sitemap.xml')
+        root = tree.getroot()
+        sitemap_urls = [elem.text for elem in root.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+        if len(sitemap_urls) != 13:
+            print(f"❌ sitemap.xml contains {len(sitemap_urls)} URLs, expected 13")
+            sys.exit(1)
+        print(f"✅ sitemap.xml is valid XML with all {len(sitemap_urls)} canonical URLs")
+    except Exception as e:
+        print(f"❌ Failed to parse sitemap.xml: {e}")
+        sys.exit(1)
+
+    # 5b. Validate robots.txt
+    with open('robots.txt', 'r', encoding='utf-8') as fp:
+        robots_content = fp.read()
+    for agent in ['Googlebot', 'Bingbot', 'GPTBot', 'ClaudeBot', 'PerplexityBot', 'Google-Extended']:
+        if agent not in robots_content:
+            print(f"❌ robots.txt missing rule for: {agent}")
+            sys.exit(1)
+    if 'Sitemap: https://ajaypundir04.github.io/aj-profile/sitemap.xml' not in robots_content:
+        print("❌ robots.txt missing sitemap directive")
+        sys.exit(1)
+    print("✅ robots.txt verified with search engine & AI bot rules")
+
+    # 5c. Validate Canonical tags & JSON-LD structured data across all HTML files
+    for h in html_files:
+        with open(h, 'r', encoding='utf-8') as fp:
+            content = fp.read()
+
+        # Check canonical
+        canonical_match = re.search(r'<link\s+rel=[\"\']canonical[\"\']\s+href=[\"\']([^\"\']+)[\"\']', content)
+        if not canonical_match:
+            print(f"❌ Missing canonical link in {h}")
+            sys.exit(1)
+
+        # Check JSON-LD
+        json_ld_matches = re.findall(r'<script\s+type=[\"\']application/ld\+json[\"\']>(.*?)</script>', content, re.DOTALL)
+        if not json_ld_matches:
+            print(f"❌ Missing JSON-LD structured data in {h}")
+            sys.exit(1)
+        for ld in json_ld_matches:
+            try:
+                json.loads(ld)
+            except Exception as e:
+                print(f"❌ Invalid JSON-LD structured data in {h}: {e}")
+                sys.exit(1)
+
+        # Check robots meta tag
+        if 'name="robots"' not in content:
+            print(f"❌ Missing robots meta tag in {h}")
+            sys.exit(1)
+
+        print(f"✅ Verified SEO & JSON-LD metadata in: {h}")
 
     print("=" * 60)
     print("✅ All Pre-Deployment Checks Passed Successfully!")

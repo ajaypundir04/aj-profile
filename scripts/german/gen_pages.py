@@ -3,6 +3,7 @@
 Generate dedicated CEFR level pages (a1.html, a2.html, b1.html, b2.html, c1.html, c2.html)
 """
 import os
+import json
 
 levels_info = {
     "A1": {
@@ -104,11 +105,51 @@ template = """<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} | Deutsch Hub | Ajay Singh Pundir</title>
   <meta name="description" content="{desc}">
+  <meta name="author" content="Ajay Singh Pundir">
+
+  <!-- Canonical & Search Optimization -->
+  <link rel="canonical" href="https://ajaypundir04.github.io/aj-profile/deutsche/{slug}.html">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="keywords" content="Deutsche Grammatik {level}, German {level} Grammar, CEFR {level}, Deutsch lernen {level}, Deutsche Grammatikübungen, Beispielsätze {level}, Ajay Singh Pundir">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{title} - 105 Themen">
-  <meta property="og:description" content="{desc}">
   <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Deutsche Grammatik Hub - Ajay Singh Pundir">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:url" content="https://ajaypundir04.github.io/aj-profile/deutsche/{slug}.html">
+  <meta property="og:title" content="{title} - 105 Themen | Ajay Singh Pundir">
+  <meta property="og:description" content="{desc}">
+  <meta property="og:image" content="https://ajaypundir04.github.io/aj-profile/profile.jpeg?v=3">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{title} | Ajay Singh Pundir">
+  <meta name="twitter:description" content="{desc}">
+  <meta name="twitter:image" content="https://ajaypundir04.github.io/aj-profile/profile.jpeg?v=3">
+
+  <!-- Structured Data: Course & LearningResource -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "{title}",
+    "description": "{desc}",
+    "url": "https://ajaypundir04.github.io/aj-profile/deutsche/{slug}.html",
+    "inLanguage": "de",
+    "educationalLevel": "{level}",
+    "provider": {{
+      "@type": "Person",
+      "name": "Ajay Singh Pundir",
+      "url": "https://ajaypundir04.github.io/aj-profile/"
+    }},
+    "isPartOf": {{
+      "@type": "Course",
+      "name": "Deutsche Grammatik Hub (A1–C2)",
+      "url": "https://ajaypundir04.github.io/aj-profile/deutsche/index.html"
+    }},
+    "teaches": {competencies_json}
+  }}
+  </script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇩🇪</text></svg>">
@@ -286,6 +327,7 @@ def main():
         filename = f"deutsche/{slug}.html"
         
         comp_html = "\n".join([f"<li>{comp}</li>" for comp in info["competencies"]])
+        comp_json = json.dumps(info["competencies"], ensure_ascii=False)
         
         active_flags = {
             f"active_{l.lower()}": " active" if l == lvl else ""
@@ -294,12 +336,14 @@ def main():
 
         page_content = template.format(
             level=lvl,
+            slug=slug,
             title=info["title"],
             subtitle=info["subtitle"],
             desc=info["desc"],
             badge_color=info["badge_color"],
             badge_bg=info["badge_bg"],
             competencies_html=comp_html,
+            competencies_json=comp_json,
             **active_flags
         )
 
